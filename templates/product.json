@@ -1,0 +1,486 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_XPBTai": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_KWMPTL": {
+          "type": "image",
+          "settings": {
+            "image_width": 30
+          }
+        },
+        "text_ewTfwQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Най-популярните марки в едно място</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_W8dm8V": {
+          "type": "image",
+          "settings": {
+            "image_width": 20
+          }
+        },
+        "text_VGmeKK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 доволни клиенти</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_VpATJr": {
+          "type": "image",
+          "settings": {
+            "image_width": 20
+          }
+        },
+        "text_nk6j9a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>До 100 дни тест период</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_YE9AFi": {
+          "type": "image",
+          "settings": {
+            "image_width": 20
+          }
+        },
+        "text_UyLLad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна доставка </p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_pDpbGV": {
+          "type": "image",
+          "settings": {
+            "image_width": 20
+          }
+        },
+        "text_DbBqpK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна удължена гаранция</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_KWMPTL",
+        "text_ewTfwQ",
+        "image_W8dm8V",
+        "text_VGmeKK",
+        "image_VpATJr",
+        "text_nk6j9a",
+        "image_YE9AFi",
+        "text_UyLLad",
+        "image_pDpbGV",
+        "text_DbBqpK"
+      ],
+      "disabled": true,
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        },
+        "discount_code_MMCAxJ": {
+          "type": "discount_code",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "option_font_size": "body-medium",
+            "value_font_size": "body-x-small",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": false,
+            "button_type": "btn--black",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_payment_button": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_size_dynamic": "btn--large",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 10
+          }
+        },
+        "countdown_hG3tCj": {
+          "type": "countdown",
+          "settings": {
+            "use_tag": true,
+            "end_date": "2025-12-31",
+            "end_time": "11:59",
+            "period": "pm",
+            "end_message": "<p>Offer has expired</p>",
+            "hide_on_complete": true,
+            "digits_font_size": "heading-large",
+            "text_font_size": "body-small",
+            "text": "<p>OFERTA LIMITATA</p>",
+            "heading_font_size": "heading-x-small",
+            "bg_color": "#ffc31a",
+            "color": "#221c42",
+            "text_align": "text-center",
+            "padding_bottom": 16
+          }
+        },
+        "upsell_3be6Ga": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": "{{ product.metafields.theme.upsell.value }}",
+            "show_available_upsell_only": false,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        },
+        "trust_badge_icYwqH": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-fast-shipment",
+            "icon_left_size": 30,
+            "title": "Безплатна доставка*",
+            "subtitle": "<p>Доставка от 2 до 5 работни дни</p>",
+            "page": "bezplatna-dostavka",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 16,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "in-stock"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "trust_badge_CbrWxg": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-fast-shipment",
+            "icon_left_size": 30,
+            "title": "Безплатна доставка*",
+            "subtitle": "<p>Срок за доставка 20 работни дни</p>",
+            "page": "bezplatna-dostavka",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 16,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "20-days-delivery"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "trust_badge_djRwF3": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-fast-shipment",
+            "icon_left_size": 30,
+            "title": "Безплатна доставка*",
+            "subtitle": "<p>Срок за доставка 3 седмици</p>",
+            "page": "bezplatna-dostavka",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 16,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "3-weeks-delivery"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "trust_badge_KmY86j": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-fast-shipment",
+            "icon_left_size": 30,
+            "title": "Безплатна доставка*",
+            "subtitle": "<p>Налично с доставка до 5 дни</p>",
+            "page": "bezplatna-dostavka",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 16,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "5-days-delivery"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "trust_badge_7EtfjU": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-info-empty",
+            "icon_left_size": 25,
+            "title": "100 дни тест период",
+            "subtitle": "<p>100% Гаранция за удовлетвореност.</p>",
+            "page": "test-period",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 10,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "100-дни-гаранция"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "trust_badge_VbVyir": {
+          "type": "trust-badge",
+          "settings": {
+            "icon_left": "icon-info-empty",
+            "icon_left_size": 25,
+            "title": "30 дни тест период",
+            "subtitle": "<p>100% Гаранция за удовлетвореност.</p>",
+            "page": "test-period",
+            "icon_right": "icon-info-empty",
+            "icon_right_size": 20,
+            "padding_bottom": 10,
+            "single_condition": true,
+            "condition_product_list": [],
+            "condition_collections": [
+              "30-дни-гаранция"
+            ],
+            "condition_vendors": "",
+            "condition_tags": "",
+            "combined_conditions": false,
+            "combined_condition_types": "",
+            "combined_condition_vendors": "",
+            "combined_condition_vid_matrak_metafield": ""
+          }
+        },
+        "complementary_products_W8bBAt": {
+          "type": "complementary-products",
+          "settings": {
+            "complementary_limit": 3,
+            "layout": "stacked",
+            "autoplay": false,
+            "autoplay_speed": 8,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "discount_code_MMCAxJ",
+        "variants",
+        "buttons",
+        "countdown_hG3tCj",
+        "upsell_3be6Ga",
+        "trust_badge_icYwqH",
+        "trust_badge_CbrWxg",
+        "trust_badge_djRwF3",
+        "trust_badge_KmY86j",
+        "trust_badge_7EtfjU",
+        "trust_badge_VbVyir",
+        "complementary_products_W8bBAt"
+      ],
+      "settings": {
+        "custom_award_image": "shopify://shop_images/certified_icon_2x_807016c3-c487-42c3-b631-44b2b96025b7.webp",
+        "custom_award_text": "<p><strong>+1 000 000 de clienți mulțumiți</strong></p>",
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "mobile_image_style": "thumbs",
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "1759747786db434d90": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NmPHk7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NmPHk7"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_double_6g6Lcz": {
+      "type": "section-double",
+      "blocks": {
+        "image_gaadCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_7.svg",
+            "image_width": 20,
+            "padding_bottom": 16
+          }
+        },
+        "text_DEHjLG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contactați consultantul nostru la numărul <a href=\"tel:0040316300529\" title=\"tel:0040316300529\">0040316300529</a> și vă vom ajuta să alegeți și să comandați cel mai potrivit produs pentru dumneavoastră.</p>",
+            "text_font_size": "body-x-large",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "image_gaadCy",
+        "text_DEHjLG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/0933c41fc6f803cb4c870c5f5fb076b1ae6a27d8.webp",
+        "image_width": "one-quarter",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": true,
+        "color_scheme": "scheme-4",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "related": {
+      "type": "related",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "S-ar putea să-ți placă și"
+          }
+        },
+        "recent_zHJtj4": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Ultima vizualizare"
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent_zHJtj4"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "limit": 4,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_announcement_XPBTai",
+    "main",
+    "1759747786db434d90",
+    "section_double_6g6Lcz",
+    "related"
+  ]
+}

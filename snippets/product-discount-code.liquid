@@ -1,0 +1,23 @@
+{% liquid
+  assign discount_code = discount_tag | split: '/' | first
+  assign discount_percentage = discount_tag | split: '/' | last
+  assign show_discount_code_message = false
+
+  for tag in product.tags
+    if tag contains 'code:'
+      assign show_discount_code_message = true
+      assign discount_tag = tag | split: 'code:' | last
+      break
+    endif
+  endfor
+%}
+
+{% if show_discount_code_message %}
+  <div 
+    class="product__block product__block--discount-code block-padding"
+    {{ block_style }}
+    {{ block.shopify_attributes }}
+  >
+    <p>{{ 'products.product.discount_html' | t: discount_code: discount_code, discount_percentage: discount_percentage }}</p>
+  </div>
+{% endif %}

@@ -1,0 +1,77 @@
+{% liquid
+  assign default_open = default_open | default: false
+  assign is_metafield_section = is_metafield_section | default: false
+
+  if default_open
+    assign rte_style = 'style="height: auto;"'
+    assign accordion_attributes = 'open="true"'
+  endif
+%}
+
+{%- if title != blank -%}
+  {%- if content != blank or is_metafield_section -%}
+    <collapsible-elements>
+      <details class="accordion accordion--custom {{ class }}" data-collapsible {{ accordion_attributes }}>
+        {%- if title != blank -%}
+          <summary class="accordion__title font-heading" data-collapsible-trigger>
+            {{ title }}
+            {%- render 'icon-plus' -%}
+            {%- render 'icon-minus' -%}
+          </summary>
+        {%- endif -%}
+
+        <div class="accordion__body rte" data-collapsible-body {{ rte_style }}>
+          <div class="accordion__content" data-collapsible-content>
+            {%- if content != blank -%}
+              {{ content }}
+            {%- elsif is_metafield_section -%}
+              {%- capture content -%}
+                {%- for metafield_section in sections -%}
+                  {%- assign metafield = product.metafields[metafield_section.name] -%}
+                  {%- assign index = metafield_section.index -%}
+                  {%- if metafield_section.name == 'image_with_text' -%}
+                    {%- if metafield.text[index] -%}
+                      {% comment %} {%- render 'image-with-text' with
+                        mod_title: metafield.title[index],
+                        mod_image: metafield.image[index],
+                        mod_video: metafield.video[index],
+                        mod_image_metafield: true,
+                        mod_text: metafield.text[index]
+                      -%} {% endcomment %}
+
+                      {%- if metafield.title[index] != blank -%}
+                        <h3>{{ metafield.title[index] }}</h3>
+                      {%- endif -%}
+
+                      {%- if metafield.image[index] != blank -%}
+                        <div class="accordion__media">
+                          <img src="{{ metafield.image[index].first.cloudinary_src }}" alt="{{ metafield.image[index].first.alt }}">
+                        </div>
+                      {%- endif -%}
+
+                      {%- if metafield.video[index] != blank -%}
+                        <div class="accordion__media">
+                          <video controls playsinline>
+                            <source src="{{ metafield.video[index].first.src }}" type="video/mp4">
+                          </video>
+                        </div>
+                      {%- endif -%}
+
+                      {%- if metafield.text[index] != blank -%}
+                        <div class="rte">
+                          {{ metafield.text[index] }}
+                        </div>
+                      {%- endif -%}
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endcapture -%}
+
+              {{ content }}
+            {%- endif -%}
+          </div>
+        </div>
+      </details>
+    </collapsible-elements>
+  {%- endif -%}
+{% endif %}

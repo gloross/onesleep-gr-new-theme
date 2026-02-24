@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Coșul tău",
+            "text_font_size": "body-medium"
+          }
+        },
+        "free-shipping": {
+          "type": "free-shipping",
+          "settings": {
+            "message": "Mai ai ||amount|| lei până primești LIVRARE GRATUITĂ!",
+            "text_font_size": "body-x-small",
+            "color_scheme": "",
+            "pin_to_bottom": false
+          }
+        },
+        "upsell_products_wJA9Uc": {
+          "type": "upsell-products",
+          "settings": {
+            "upsell_auto_open": true,
+            "pin_to_bottom": true
+          }
+        },
+        "product_list_gnGjNa": {
+          "type": "product-list",
+          "disabled": true,
+          "settings": {
+            "product_list": [
+              "protektor-sleepy",
+              "memory-rainbow",
+              "top-matrak-silver-memory"
+            ],
+            "title": "Оферти на Фокус",
+            "upsell_auto_open": false,
+            "pin_to_bottom": true
+          }
+        },
+        "discount_code_VLmRDj": {
+          "type": "discount-code",
+          "disabled": true,
+          "settings": {
+            "pin_to_bottom": true
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false,
+            "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "free-shipping",
+        "upsell_products_wJA9Uc",
+        "product_list_gnGjNa",
+        "discount_code_VLmRDj",
+        "checkout-buttons"
+      ],
+      "settings": {
+        "color_scheme": ""
+      }
+    }
+  },
+  "order": [
+    "cart-drawer"
+  ]
+}

@@ -1,0 +1,35 @@
+<script>
+  const tbiLogo = '{{ 'tbi.png' | asset_url }}';
+</script>
+
+<div class="calculator-overlay js-calculator-overlay"></div>
+
+<div class="calculator-popup js-calculators-popup">
+  <button type="button" class="calculator-popup__close js-popup-close">&#10006;</button>
+
+  <div class="calculator-popup__head">
+    <h4>{{- 'products.calculator.title' | t -}}</h4>
+
+    <div class="calculator-popup__tabs" data-calculator-tabs></div>
+  </div>
+
+  <div class="calculator-popup__body" data-calculator-body>
+    <div class="calculator-popup__info is-hidden-mobile-only">
+      <span>{{- 'products.calculator.monthly' | t -}}</span>
+      <span>{{- 'products.calculator.total_sum' | t -}}</span>
+      <span>{{- 'products.calculator.gpr' | t -}}</span>
+      <span>{{- 'products.calculator.interest_rate' | t -}}</span>
+      <span>{{- 'products.calculator.bank' | t -}}</span>
+    </div>
+
+    <div class="calculator-popup__schemes" data-calculator-schemes></div>
+  </div>
+
+  <div class="calculator-popup__footer">
+    <p>
+      {{- 'products.calculator.disclaimer' | t -}}
+    </p>
+  </div>
+</div>
+
+<div class="lds-ring js-spinner"><div></div><div></div><div></div><div></div></div>

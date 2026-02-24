@@ -1,0 +1,742 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_rxDcgQ": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_PNDeHc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_3.svg",
+            "image_width": 30
+          }
+        },
+        "text_9KWLBi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Най-популярните марки в едно място<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_r97jhP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.svg",
+            "image_width": 20
+          }
+        },
+        "text_fCqYB7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 de clienți mulțumiți<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_YnjG8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.svg",
+            "image_width": 20
+          }
+        },
+        "text_jeg3gW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>До 100 дни тест период<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_JCgnXF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_4.svg",
+            "image_width": 20
+          }
+        },
+        "text_3Y8YMk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна доставка над 100лв.<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_qnWkU4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_5.svg",
+            "image_width": 20
+          }
+        },
+        "text_at3DyG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна удължена гаранция<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_PNDeHc",
+        "text_9KWLBi",
+        "image_r97jhP",
+        "text_fCqYB7",
+        "image_YnjG8J",
+        "text_jeg3gW",
+        "image_JCgnXF",
+        "text_3Y8YMk",
+        "image_qnWkU4",
+        "text_at3DyG"
+      ],
+      "disabled": true,
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-medium",
+        "show_content": true,
+        "text_font_size": "body-small",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_slideshow_nested_qy3jBB": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide_video_apxkjq": {
+          "type": "_slide-video",
+          "name": "Video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/2880x754-CH25-Header_Christmas_M1.mp4",
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "opacity"
+          },
+          "blocks": {
+            "heading_GHHcVy": {
+              "type": "heading",
+              "settings": {
+                "text": "Коледните чудеса започват от леглото!",
+                "heading_font_size": "heading-medium",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_if33RV": {
+              "type": "text",
+              "settings": {
+                "text": "<b style=\"font-size: 24px;\">Матраци и топ матраци с \nнамаления до 75%<\/b>",
+                "text_font_size": "body-medium",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button_aAxAcj": {
+              "type": "button",
+              "settings": {
+                "text": "Виж Всички промоции",
+                "link": "https:\/\/matraci.bg\/collections\/promotsii",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["heading_GHHcVy", "text_if33RV", "button_aAxAcj"]
+        }
+      },
+      "block_order": ["slide_video_apxkjq"],
+      "disabled": true,
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collections_list_ckKW3H": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_xpLixb": {
+          "type": "collection",
+          "settings": {
+            "collection": "matraci",
+            "collection_image": "shopify:\/\/shop_images\/Xmas_Matraci_banner3_S.jpg",
+            "title": "Матраци"
+          }
+        },
+        "collection_UciRhp": {
+          "type": "collection",
+          "settings": {
+            "collection": "top-matraci",
+            "collection_image": "shopify:\/\/shop_images\/Xmas_toppers_banner_s.jpg",
+            "title": "Топ матраци"
+          }
+        },
+        "collection_FqT7kA": {
+          "type": "collection",
+          "settings": {
+            "collection": "zymmo",
+            "collection_image": "shopify:\/\/shop_images\/Xmas_Zymmo_banner3_S.jpg",
+            "title": "Zymmo"
+          }
+        },
+        "collection_ccXgJH": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "collection_image": "shopify:\/\/shop_images\/Xmas_GiftIdeas_01_banner3_s.jpg",
+            "title": "Идеи за подаръци"
+          }
+        },
+        "collection_MVQJac": {
+          "type": "collection",
+          "settings": {
+            "collection": "last-chance",
+            "collection_image": "shopify:\/\/shop_images\/Xmas_Outlet_banner3_S.jpg",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_xpLixb",
+        "collection_UciRhp",
+        "collection_FqT7kA",
+        "collection_ccXgJH",
+        "collection_MVQJac"
+      ],
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "title": "Избрани колекции",
+        "heading_font_size": "heading-small",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify:\/\/collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper",
+        "layout": "grid",
+        "grid": 5,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_dgcJea": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_7zPfXH": {
+          "type": "heading",
+          "settings": {
+            "title": "Оферти на деня",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "countdown_YypRBj": {
+          "type": "countdown",
+          "settings": {
+            "use_tag": false,
+            "reset_every_day": true,
+            "end_date": "2025-11-31",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "<p>Offer has expired<\/p>",
+            "hide_on_complete": true,
+            "digits_font_size": "heading-small",
+            "text_font_size": "body-small",
+            "text": "",
+            "heading_font_size": "heading-x-small",
+            "color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": ["heading_7zPfXH", "countdown_YypRBj"],
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify:\/\/shop_images\/2880x754-CH25-GiftIdeas-MatraciBG-04.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify:\/\/shop_images\/1200x1200-Mobile-CH25-GiftIdeas-MatraciBG-03.jpg",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_products_image_LpdBGc": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_he9w3x": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "matrak-exclusive-hybrid-sleepy",
+              "aloe-wellness",
+              "топ-матрак-rona-от-zymmo",
+              "top-matrak-antistress-silver-sleepy"
+            ],
+            "layout_mobile": "slider"
+          }
+        }
+      },
+      "block_order": ["products_he9w3x"],
+      "custom_css": [".grid {--COLUMNS: 4;}"],
+      "name": "Products with image",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "width": "wrapper",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_6XYmXP": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_JWtHaQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Идеи за подаръци",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_gxtcci": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Избери подаръци за близки и приятели<\/p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_NfeYJy": {
+          "type": "button",
+          "settings": {
+            "link_text": "Виж предложенията",
+            "link": "shopify:\/\/collections\/accessories",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": ["heading_JWtHaQ", "text_gxtcci", "button_NfeYJy"],
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify:\/\/shop_images\/2880x754-CH25-DailyOffer-MatraciBG-03.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-third",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify:\/\/shop_images\/1200x1200-Mobile-CH25-DailyOffer-MatraciBG-03.jpg",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_products_image_9kFdjQ": {
+      "type": "section-products-image",
+      "blocks": {
+        "products_ygGGjH": {
+          "type": "products",
+          "settings": {
+            "product_list": ["sweet-dreams-denim-aglika", "lama-bejovo-aglika", "air-queen", "zip-protect"],
+            "layout_mobile": "slider"
+          }
+        }
+      },
+      "block_order": ["products_ygGGjH"],
+      "custom_css": [".grid {--COLUMNS: 4;}"],
+      "name": "Products with image",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "width": "wrapper",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_tab_collections_TzNcfM": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_CxxaxA": {
+          "type": "collection",
+          "settings": {
+            "tab_button_image": "shopify:\/\/shop_images\/Zymmo_Logo_01.png",
+            "tab_button_icon": "single-bed",
+            "title": "First collection",
+            "featured_collection": "zymmo",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "Виж Всички",
+            "link": "shopify:\/\/collections\/zymmo",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_eKkBxq": {
+          "type": "collection",
+          "settings": {
+            "tab_button_image": "shopify:\/\/shop_images\/iSleep_logo1.png",
+            "tab_button_icon": "single-bed",
+            "title": "",
+            "featured_collection": "matraci-isleep",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "Виж Всички",
+            "link": "shopify:\/\/collections\/isleep-vsichki-produkti",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_6BzxpW": {
+          "type": "collection",
+          "settings": {
+            "tab_button_image": "shopify:\/\/shop_images\/Magniflex_Logo1.png",
+            "tab_button_icon": "single-bed",
+            "title": "",
+            "featured_collection": "magniflex-vsichki-produkti",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "Виж Всички",
+            "link": "shopify:\/\/collections\/magniflex-vsichki-produkti",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_48wQQP": {
+          "type": "collection",
+          "settings": {
+            "tab_button_image": "shopify:\/\/shop_images\/Sleepy_logo1.png",
+            "tab_button_icon": "single-bed",
+            "title": "Second collection",
+            "featured_collection": "sleepy",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "Виж Всички",
+            "link": "shopify:\/\/collections\/sleepy",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_qgcycR": {
+          "type": "collection",
+          "settings": {
+            "tab_button_image": "shopify:\/\/shop_images\/dreamOn_logo1.png",
+            "tab_button_icon": "single-bed",
+            "title": "",
+            "featured_collection": "dream-on",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "Виж Всички",
+            "link": "shopify:\/\/collections\/dream-on",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_CxxaxA",
+        "collection_eKkBxq",
+        "collection_6BzxpW",
+        "collection_48wQQP",
+        "collection_qgcycR"
+      ],
+      "custom_css": [],
+      "name": "Tab collections",
+      "settings": {
+        "show_product_count": false,
+        "tab_navigation_style": "image",
+        "title": "Пазарувай по марка",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "left",
+        "width": "wrapper",
+        "layout_desktop": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "17642357749f1d34c9": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_KaMmz6": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TspwUc"
+          }
+        }
+      },
+      "block_order": ["klaviyo_email_marketing_sms_form_embed_block_KaMmz6"],
+      "custom_css": [".klaviyo-form {max-width: 800px; margin: 0 auto;}"],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "section_reviews_W78DE9": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_CfCkTA": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "Чудесен матрак",
+            "review_content": "<p>Матракът е чудесен. Следва извивките на тялото. Спиш като на облак! Силно препоръчвам!<\/p>",
+            "review_url": ""
+          }
+        },
+        "review_43Dcir": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "Благодаря Ви",
+            "review_content": "<p>Благодаря Ви, за удобството, което дълго търсих.<br\/>При втори удобен момент пак ще се възползвам.<br\/>Отлична и качествена изработка.<\/p>",
+            "review_url": ""
+          }
+        },
+        "review_hjV9bd": {
+          "type": "review",
+          "settings": {
+            "title": "",
+            "subheading": "Любим",
+            "review_content": "<p>Любим матрак, вече имаме закупени три броя за различни членове от семейството. След ден-два лек шок от твърдостта - рязко става незаменим помощник за добър сън.<\/p>",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": ["review_CfCkTA", "review_43Dcir", "review_hjV9bd"],
+      "custom_css": ["grid-slider {max-width: 1400px; margin: 0 auto;}"],
+      "name": "Testimonials",
+      "settings": {
+        "show_featured_image": false,
+        "image_aspect_ratio": 1.3,
+        "show_quotation_marks": true,
+        "heading_font_size": "heading-small",
+        "text_align": "text-left",
+        "color_scheme": "",
+        "card_bg_color": "",
+        "padding_top": 80,
+        "padding_bottom": 50
+      }
+    },
+    "section_multicolumn_F3Q74M": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "menu_M8A8pX": {
+          "type": "menu",
+          "settings": {
+            "column_width": 25,
+            "menu": "individualni-resheniya",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "image_overlay_RG8fWT": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 75,
+            "image": "shopify:\/\/shop_images\/1800x964-CH25-_testMatraci.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Не знаеш кой е матракът за теб?",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--middle-center-desktop",
+            "show_text_background": false,
+            "button_text": "Направи теста за матраци",
+            "button_url": "https:\/\/matraci.bg\/pages\/quiz-mattresses",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": ["menu_M8A8pX", "image_overlay_RG8fWT"],
+      "name": "Multi column",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_announcement_rxDcgQ",
+    "main",
+    "section_slideshow_nested_qy3jBB",
+    "section_collections_list_ckKW3H",
+    "section_hero_dgcJea",
+    "section_products_image_LpdBGc",
+    "section_hero_6XYmXP",
+    "section_products_image_9kFdjQ",
+    "section_tab_collections_TzNcfM",
+    "17642357749f1d34c9",
+    "section_reviews_W78DE9",
+    "section_multicolumn_F3Q74M"
+  ]
+}

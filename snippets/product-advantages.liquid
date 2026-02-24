@@ -1,0 +1,74 @@
+<ul class="product-item__advantages">
+  {%- if product.metafields.custom.pim_height_cm != blank -%}
+    <li>
+      <strong>Înălțime:</strong>
+      {{ product.metafields.custom.pim_height_cm | split: '.' | first }}
+      cm
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_firmness != blank -%}
+    <li>
+      <strong>Fermitate:</strong>
+      {{ product.metafields.custom.pim_firmness.value }}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_mattress_type != blank -%}
+    <li>
+      <strong>Tip:</strong>
+      {{ product.metafields.custom.pim_mattress_type.value }}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_pillow_shape != blank -%}
+    <li>
+      <strong>Forma:</strong>
+      {{ product.metafields.custom.pim_pillow_shape.value }}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_bed_type != blank -%}
+    <li>
+      <strong>Tip:</strong>
+      {{ product.metafields.custom.pim_bed_type.value }}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_rack != blank -%}
+    <li>
+      <strong>Somieră:</strong>
+
+      {% if product.metafields.custom.pim_rack == 'Da' %}
+        Da
+      {% elsif product.metafields.custom.pim_rack == 'Nu' %}
+        Nu
+      {% endif %}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_frame_technology != blank -%}
+    <li>
+      <strong>Tip:</strong>
+      {{ product.metafields.custom.pim_frame_technology.value }}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_frame_type != blank -%}
+    <li>
+      <strong>Сглобяема:</strong>
+      {% if product.metafields.custom.pim_frame_type.value.first == 'Da' %}
+        Da
+      {% elsif product.metafields.custom.pim_frame_type.value.first == 'Nu' %}
+        Nu
+      {% endif %}
+    </li>
+  {%- endif -%}
+
+  {%- if product.metafields.custom.pim_protector_type != blank -%}
+    <li>
+      <strong>Tip:</strong>
+      {{ product.metafields.custom.pim_protector_type.value }}
+    </li>
+  {%- endif -%}
+</ul>

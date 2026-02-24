@@ -1,0 +1,178 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_eA8J77": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_dzqxMB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandShake.svg",
+            "image_width": 30
+          }
+        },
+        "text_Yb3ctK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_zF99Ex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Star.svg",
+            "image_width": 20
+          }
+        },
+        "text_dk8fH6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_egwe6z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bubble.svg",
+            "image_width": 20
+          }
+        },
+        "image_7pkYNr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Truck.svg",
+            "image_width": 20
+          }
+        },
+        "text_ye8Dfp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_GhfWgg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sheild.svg",
+            "image_width": 20
+          }
+        },
+        "text_Kznwbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garanție extinsă gratuită</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_dzqxMB",
+        "text_Yb3ctK",
+        "image_zF99Ex",
+        "text_dk8fH6",
+        "image_egwe6z",
+        "image_7pkYNr",
+        "text_ye8Dfp",
+        "image_GhfWgg",
+        "text_Kznwbm"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-medium",
+        "show_content": true,
+        "text_font_size": "body-small",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_newsletter_7xELgM": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_FEMepy": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "Nu doar povești de adormit..",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Abonează-te pentru sfaturi, noutăți și ofertele promoționale</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Trimite",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_FEMepy"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "color_scheme": "scheme-8",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_announcement_eA8J77",
+    "main",
+    "section_newsletter_7xELgM"
+  ]
+}

@@ -1,0 +1,15 @@
+{% liquid
+  if padding_bottom
+    assign padding_bottom = '--block-padding-bottom: ' | append: padding_bottom | append: 'px;'
+  endif
+%}
+
+<div class="product__block product__rating block-padding" style="{{ padding_bottom }}">
+  <div class="product-rating {{ class }}">
+    <!-- Start of Judge.me code -->
+    <div class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}'>
+      {{ product.metafields.judgeme.badge }}
+    </div>
+    <!-- End of Judge.me code -->
+  </div>
+</div>

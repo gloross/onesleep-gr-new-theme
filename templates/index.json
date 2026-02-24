@@ -1,0 +1,1073 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_nested": {
+      "type": "section-slideshow-nested",
+      "blocks": {
+        "slide_image_EW67x6": {
+          "type": "_slide-image",
+          "name": "Image",
+          "settings": {
+            "image": "shopify://shop_images/2800x754_Premimum_Mattresses_HeroHeader_02OneSleep_RO.png",
+            "link": "shopify://collections/promotii",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "mobile_image": "shopify://shop_images/1200x1440_Premimum_Mattresses_HeroHeader_02_OneSLeep_RO.png",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slide_image_EW67x6"
+      ],
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "fade",
+        "show_arrows": false,
+        "autoplay": true,
+        "autoplay_speed": 6,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "scheme-5",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_announcement_eJ7Bjj": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_LkU9Wz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandShake.svg",
+            "image_width": 30
+          }
+        },
+        "text_qetabk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_KmMgGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Star.svg",
+            "image_width": 20
+          }
+        },
+        "text_FVQYQW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_aVBnFF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bubble.svg",
+            "image_width": 20
+          }
+        },
+        "text_mp8hKx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Până la 100 de zile perioadă de testare</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_Ew4MNX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Truck.svg",
+            "image_width": 20
+          }
+        },
+        "text_Mii3r3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_V9FKYT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sheild.svg",
+            "image_width": 20
+          }
+        },
+        "text_FcQtqD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garanție extinsă gratuită</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_LkU9Wz",
+        "text_qetabk",
+        "image_KmMgGx",
+        "text_FVQYQW",
+        "image_aVBnFF",
+        "text_mp8hKx",
+        "image_Ew4MNX",
+        "text_Mii3r3",
+        "image_V9FKYT",
+        "text_FcQtqD"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_tab_collections_KaUVkb": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_VXhrhg": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Saltele",
+            "featured_collection": "saltele-1",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/saltele-1",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_z8VpzC": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Toppere",
+            "featured_collection": "toppere",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/toppere",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_rBKdcr": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Perne",
+            "featured_collection": "perne",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/perne",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_rhwJR6": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Somiere",
+            "featured_collection": "somiere",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_WLfaWm": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Protecţii",
+            "featured_collection": "protectii",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/protectii",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_VXhrhg",
+        "collection_z8VpzC",
+        "collection_rBKdcr",
+        "collection_rhwJR6",
+        "collection_WLfaWm"
+      ],
+      "name": "Tab collections",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "show_product_count": false,
+        "tab_navigation_style": "text",
+        "title": "Cele mai bune oferte",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Economisește mai mult și dormi mai bine. Descoperă produsele noastre recomandate:</p><p></p>",
+        "text_font_size": "body-medium",
+        "layout": "left",
+        "width": "wrapper",
+        "layout_desktop": "grid",
+        "product_limit": 4,
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "link_text": "Vezi mai multe",
+        "link": "shopify://collections/promotii",
+        "button_type": "btn--secondary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_text_row_MiKmM7": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_GPARzH": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Hard_RO.svg",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Tare",
+            "heading_font_size": "heading-small",
+            "text": "<p>Sprijin solid pentru un somn confortabil, chiar și la greutăți mai mari sau dureri de spate.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Către saltele",
+            "button_url": "shopify://collections/saltele-nivel-fermitate-tare",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_YnbC4k": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Medium_Hard_RO.svg",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Medie-tare",
+            "heading_font_size": "heading-small",
+            "text": "<p>Suport stabil și confort optim. Perfect pentru dureri de spate și schimbări frecvente de poziție în timpul somnului.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Către saltele",
+            "button_url": "shopify://collections/saltele-fermitate-medie-tare",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_iPBtie": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Meddium_RO.svg",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Medie",
+            "heading_font_size": "heading-small",
+            "text": "<p>Echilibrul perfect. O alegere versatilă care combină armonios confortul și stabilitatea.<br/><br/></p>",
+            "text_font_size": "body-medium",
+            "button_text": "Către saltele",
+            "button_url": "shopify://collections/saltele-fermitate-medie",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_MpddEk": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/MediumSoft_RO.svg",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Medie-moale",
+            "heading_font_size": "heading-small",
+            "text": "<p>Moale și confortabil, cu suport optim. Ideal pentru somn pe o parte sau pe spate.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Către saltele",
+            "button_url": "shopify://collections/saltele-fermitate-moale-medie",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_xmeLTa": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "image": "shopify://shop_images/Soft_RO.svg",
+            "icon_size": 80,
+            "icon_color": "",
+            "title": "Moale",
+            "heading_font_size": "heading-small",
+            "text": "<p>Confort care te învăluie. Ameliorează tensiunea și sunt o alegere excelentă pentru persoanele cu greutate mai mică.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Către saltele",
+            "button_url": "shopify://collections/matraci-po-tvurdost-meki",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_GPARzH",
+        "icon_YnbC4k",
+        "icon_iPBtie",
+        "icon_MpddEk",
+        "icon_xmeLTa"
+      ],
+      "name": "Text columns with icons",
+      "settings": {
+        "title": "Alege după fermitate",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 5,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_multicolumn_8zQhk4": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "menu_N8YXYn": {
+          "type": "menu",
+          "settings": {
+            "column_width": 25,
+            "menu": "indiviual-solutions",
+            "heading_font_size": "heading-small"
+          }
+        },
+        "image_NFP8cK": {
+          "type": "image",
+          "settings": {
+            "contain_image": true,
+            "column_width": 75,
+            "image_width": 100,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "image_shape": "normal",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "https://matraci.bg/pages/quiz-mattresses",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "menu_N8YXYn",
+        "image_NFP8cK"
+      ],
+      "disabled": true,
+      "name": "Multi column",
+      "settings": {
+        "title": "Soluții individuale",
+        "heading_font_size": "heading-medium",
+        "description": "<p>Te regăsești în una dintre următoarele situații? Cumpără saltele în funcție de nevoile tale individuale:<br/><br/></p>",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-center",
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_tab_collections_gP33NT": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_fRQFbL": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Nevoie de a adormi rapid",
+            "featured_collection": "nevoie-de-a-adormi-rapid",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/nevoie-de-a-adormi-rapid",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_EGgTWR": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Nevoie de suport stabil",
+            "featured_collection": "nevoie-de-suport-stabil",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/toppere",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_hnjMUW": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Disconfort la spate",
+            "featured_collection": "in-caz-de-disconfort-la-spate",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/in-caz-de-disconfort-la-spate",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "collection_Y7xirh": {
+          "type": "collection",
+          "settings": {
+            "tab_button_icon": "single-bed",
+            "title": "Pentru somn în doi",
+            "featured_collection": "pentru-in-doi",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_type": "disabled",
+            "description": "",
+            "color": "",
+            "link_text": "vezi tot",
+            "link": "shopify://collections/pentru-in-doi",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_fRQFbL",
+        "collection_EGgTWR",
+        "collection_hnjMUW",
+        "collection_Y7xirh"
+      ],
+      "name": "Tab collections",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "show_product_count": false,
+        "tab_navigation_style": "text",
+        "title": "Soluții individuale",
+        "heading_font_size": "heading-medium",
+        "text": "<p>Te regăsești în una dintre următoarele situații? Cumpără saltele în funcție de nevoile tale individuale:</p>",
+        "text_font_size": "body-medium",
+        "layout": "left",
+        "width": "wrapper",
+        "layout_desktop": "grid",
+        "product_limit": 4,
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--secondary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_multicolumn_MLAhdH": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_overlay_aKgXfe": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/Izone_7.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Saltele",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/saltele-1",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_kNjzY9": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/home-page_images_top-mattress.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Toppere",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/toppere",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_wLcjyn": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/c5b3182fa36e7430d1cacab1675c83e825e5a4a3_1.png",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Somiere",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/somiere",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_MtETrJ": {
+          "type": "image-overlay",
+          "disabled": true,
+          "settings": {
+            "column_width": 25,
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Lenjerie de pat",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/spalno-bielio",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_xXRcKE": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/home-page_images_bed_1.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Paturi",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/paturi",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_FX473L": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/home-page_images_pillows.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Perne",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/perne",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_cCqP6N": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/8879a9fc79321ec05f93a4ac34ad195da3fb1f6d.png",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Protecții",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/protectii",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_xk949g": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 25,
+            "image": "shopify://shop_images/Percent_Banner.png",
+            "image_width": 100,
+            "image_aspect_ratio": 1.2,
+            "mobile_image_aspect_ratio": 1.5,
+            "image_shape": "normal",
+            "title": "Promoții",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/promotii",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_overlay_aKgXfe",
+        "image_overlay_kNjzY9",
+        "image_overlay_wLcjyn",
+        "image_overlay_MtETrJ",
+        "image_overlay_xXRcKE",
+        "image_overlay_FX473L",
+        "image_overlay_cCqP6N",
+        "image_overlay_xk949g"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "Descoperă 1000+ produse în următoarele categorii:",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "2",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_JhVLJN": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify://shop_images/2160x514_PhoneConsultation_Banner_OneSleep_RO.png",
+        "link": "tel:0040316300529",
+        "width": "wrapper",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/540x239_Phone-Consultation_Banner_MobileOneSleep_RO.png",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_multicolumn_CWKb4U": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "image_overlay_wrqnbJ": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 50,
+            "image": "shopify://shop_images/bulgaria.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Saltele bulgărești",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/saltele-bulgarești",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        },
+        "image_overlay_EBTqgP": {
+          "type": "image-overlay",
+          "settings": {
+            "column_width": 50,
+            "image": "shopify://shop_images/italy.jpg",
+            "image_width": 100,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Saltele italiene",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "alignment": "align--bottom-left-desktop",
+            "show_text_background": true,
+            "button_text": "",
+            "button_url": "shopify://collections/saltele-italiene",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_overlay_wrqnbJ",
+        "image_overlay_EBTqgP"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "Cumpără după țara de origine",
+        "heading_font_size": "heading-medium",
+        "description": "<p>Maiestrie din Bulgaria sau Italia </p>",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "175974548536a38459": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_iAzHfr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1400
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_iAzHfr"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_double_7RJmDe": {
+      "type": "section-double",
+      "blocks": {
+        "heading_q97wNW": {
+          "type": "heading",
+          "settings": {
+            "title": "De ce să alegi onesleep.com",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nrDtpk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chiar și cele mai bune lucruri din viață pot deveni și mai bune, iar asta nu înseamnă întotdeauna un preț ridicat. Misiunea onesleep este să facem somnul de excepție accesibil tuturor. Investim mult timp în cercetarea fiecărui produs pe care îl oferim, astfel încât să respecte standardele noastre înalte de calitate, confort și accesibilitate. Pentru că adevărata măiestrie nu înseamnă doar perfecționism, ci dorința de a asigura un somn mai bun pentru fiecare buget.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_q97wNW",
+        "text_nrDtpk"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/cf866e0de43fd3015fb5b01eadf21ca47287cc87.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_DtEy9g": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_a7zbHw": {
+          "type": "heading",
+          "settings": {
+            "title": "Locul tău pentru somn",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Q4xpdi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ghid complet pentru alegerea saltelei și a produselor pentru somn, informații utile despre cum să dormi mai bine și alte subiecte importante:</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_a7zbHw",
+        "text_Q4xpdi"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "section_blog_3tMXED": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "totul-despre-somn",
+        "aspect_ratio": 0.8,
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper",
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_nested",
+    "section_announcement_eJ7Bjj",
+    "section_tab_collections_KaUVkb",
+    "section_text_row_MiKmM7",
+    "section_multicolumn_8zQhk4",
+    "section_tab_collections_gP33NT",
+    "section_multicolumn_MLAhdH",
+    "section_hero_JhVLJN",
+    "section_multicolumn_CWKb4U",
+    "175974548536a38459",
+    "section_double_7RJmDe",
+    "section_rich_text_DtEy9g",
+    "section_blog_3tMXED"
+  ]
+}

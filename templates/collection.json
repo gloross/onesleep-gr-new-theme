@@ -1,0 +1,426 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_A9aqHT": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_mCmkLT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandShake.svg",
+            "image_width": 30
+          }
+        },
+        "text_gdNxqf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_iGnE3m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Star.svg",
+            "image_width": 20
+          }
+        },
+        "text_mFd9nV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_9JYqBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bubble.svg",
+            "image_width": 20
+          }
+        },
+        "image_cPW38j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Truck.svg",
+            "image_width": 20
+          }
+        },
+        "text_hr8ehp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_TcYnLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sheild.svg",
+            "image_width": 20
+          }
+        },
+        "text_HyMPbM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garanție extinsă gratuită</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_mCmkLT",
+        "text_gdNxqf",
+        "image_iGnE3m",
+        "text_mFd9nV",
+        "image_9JYqBC",
+        "image_cPW38j",
+        "text_hr8ehp",
+        "image_TcYnLw",
+        "text_HyMPbM"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "highlights": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_nhkf7G": {
+          "type": "highlight",
+          "settings": {
+            "heading": "New Arrivals",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_WREypK": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Best Sellers",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_LKpYtB": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Sale",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_Cr3qqN": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Rings",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_BfUMW8": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Earrings",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_J6Ue7q": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Necklaces",
+            "url": "shopify://collections/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_nhkf7G",
+        "highlight_WREypK",
+        "highlight_LKpYtB",
+        "highlight_Cr3qqN",
+        "highlight_BfUMW8",
+        "highlight_J6Ue7q"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "button",
+        "grid": 6,
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-large",
+        "text_font_size": "body-small",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_hero_UXPhET": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "{{ collection.metafields.custom.desktop_image.value }}",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "{{ collection.metafields.custom.mobile_image.value }}",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": false
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": false,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "2",
+        "products_per_page": 23,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_9g8JcG": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_RMdkQh": {
+          "type": "review",
+          "settings": {
+            "title": "Валентин Георгиев",
+            "subheading": "",
+            "review_content": "<p>Останах изключително доволен от покупката си!<br/>Доставката беше бърза, а продуктът надмина очакванията ми - стабилен, удобен и изработен с внимание към детайла. Благодаря за професионалното отношение и коректността!</p>",
+            "review_url": ""
+          }
+        },
+        "review_pdxdYq": {
+          "type": "review",
+          "settings": {
+            "title": "Силвия Тодорова",
+            "subheading": "",
+            "review_content": "<p>Приятно съм изненадана от обслужването – всичко мина леко, без излишни усложнения.<br/>Матракът пристигна навреме, добре опакован и точно както беше описан.<br/>Качеството е страхотно, а цената напълно оправдана. Препоръчвам с две ръце!</p>",
+            "review_url": ""
+          }
+        },
+        "review_MR7fmX": {
+          "type": "review",
+          "settings": {
+            "title": "Георги Николов",
+            "subheading": "",
+            "review_content": "<p>Поръчах за родителите ми и те са много доволни. Спят като бебета.<br/>Доставката беше точна, а консултантът по телефона беше любезен и отзивчив и ми помогна с избора.</p>",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "review_RMdkQh",
+        "review_pdxdYq",
+        "review_MR7fmX"
+      ],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": true,
+        "heading_font_size": "heading-small",
+        "text_align": "text-left",
+        "color_scheme": "",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_CLbdKV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_8dLYLT": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_8dLYLT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_CpWnk8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qjWijJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Refugiul tău pentru somn",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_9YLWhJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ghid complet pentru alegerea saltelei și a produselor pentru somn, informații utile despre cum să dormi mai bine și alte subiecte importante:</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_qjWijJ",
+        "text_9YLWhJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_blog_U86qXe": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "totul-despre-somn",
+        "aspect_ratio": 0.8,
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper",
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_announcement_A9aqHT",
+    "highlights",
+    "subcollections",
+    "section_hero_UXPhET",
+    "hero",
+    "main",
+    "section_reviews_9g8JcG",
+    "section_rich_text_CLbdKV",
+    "section_rich_text_CpWnk8",
+    "section_blog_U86qXe"
+  ]
+}

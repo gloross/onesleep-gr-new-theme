@@ -1,0 +1,255 @@
+{% comment %}
+  Renders a trust badge that opens a popup on click. It can be visualized by using specific product tags
+
+  Accepts:
+  - block: {Object} The block object (required)
+
+  Usage:
+  {% render 'product-trust-badge', block: block %}
+{% endcomment %}
+
+{%- liquid
+  assign link_title = block.settings.title
+  assign link_subtitle = block.settings.subtitle
+  assign popup_title = block.settings.page.title
+  assign popup_content = block.settings.page.content
+  assign icon_left_size = block.settings.icon_left_size
+  assign icon_right_size = block.settings.icon_right_size
+  assign image_left = block.settings.image_left
+  assign image_right = block.settings.image_right
+  assign show_badge = true
+
+  assign block_style = 'style="--block-padding-bottom: ' | append: block.settings.padding_bottom | append: 'px;"'
+  assign icon_left_style = 'style="--icon-size: ' | append: icon_left_size | append: 'px;"'
+  assign icon_right_style = 'style="--icon-size: ' | append: icon_right_size | append: 'px;"'
+  
+  if block.settings.single_condition == true or block.settings.combined_conditions == true
+    assign show_badge = false
+  endif
+
+  # Single condition
+  if block.settings.single_condition
+    # Product list
+    if block.settings.condition_product_list.count > 0
+      assign product_list_contains_product = block.settings.condition_product_list | where: 'id', product.id | first
+      if product_list_contains_product
+        assign show_badge = true
+      endif
+    endif
+
+    # Product tags
+    if block.settings.condition_tags != blank
+      assign tags = block.settings.condition_tags | split: ','
+
+      for tag in tags
+        assign clean_tag = tag | strip_newlines | strip_html | strip
+        if product.tags contains clean_tag
+          assign show_badge = true
+          break
+        endif
+      endfor
+    endif
+
+    # TODO Collections
+    if block.settings.condition_collections.count > 0
+      for collection in block.settings.condition_collections
+        assign product_collections_contains_collection = product.collections | where: 'handle', collection.handle | first
+        if product_collections_contains_collection
+          assign show_badge = true
+          break
+        endif
+      endfor
+    endif
+  endif
+
+  # Combined conditions
+  if block.settings.combined_conditions
+    assign combined_types_satisfied = true
+    assign combined_vendors_satisfied = true
+    assign combined_vid_matrak_metafield_satisfied = true
+  
+    # Product types
+    if block.settings.combined_condition_types != blank
+      assign combined_types_satisfied = false
+      assign combined_types = block.settings.combined_condition_types | split: ','
+      for type in combined_types
+        assign clean_type = type | strip_newlines | strip_html | strip
+        if product.type == clean_type
+          assign combined_types_satisfied = true
+        endif
+      endfor
+    endif
+
+    # Product vendors
+    if block.settings.combined_condition_vendors != blank
+      assign combined_vendors_satisfied = false
+      assign combined_vendors = block.settings.combined_condition_vendors | split: ','
+      for vendor in combined_vendors
+        assign clean_vendor = vendor | strip_newlines | strip_html | strip
+        if product.vendor == clean_vendor
+          assign combined_vendors_satisfied = true
+        endif
+      endfor
+    endif
+
+    # Custom metafield
+    if block.settings.combined_condition_vid_matrak_metafield != blank
+      assign combined_vid_matrak_metafield_satisfied = false
+      assign combined_vid_matrak_metafield = block.settings.combined_condition_vid_matrak_metafield | split: ','
+      for entry in combined_vid_matrak_metafield
+        assign clean_entry = entry | strip_newlines | strip_html | strip
+        if product.metafields.magento.vid_matrak == clean_entry
+          assign combined_vid_matrak_metafield_satisfied = true
+        endif
+      endfor
+    endif
+
+    if combined_types_satisfied and combined_vendors_satisfied and combined_vid_matrak_metafield_satisfied
+      assign show_badge = true
+    endif
+  endif
+
+  # Replace [delivery_date] template string with actual date
+  if link_subtitle contains '[delivery-date]'
+    if show_badge
+      assign today = 'now' | date: '%s'
+      assign today_date = 'now' | date: '%w' | plus: 0
+      assign seconds_in_day = 86400
+
+      # Calculate first delivery date (skip weekends
+      if today_date == 5
+        # Friday
+        assign first_day_seconds = seconds_in_day | times: 3
+        # Skip to Monday
+      elsif today_date == 6
+        # Saturday
+        assign first_day_seconds = seconds_in_day | times: 2
+        # Skip to Monday
+      else
+        assign first_day_seconds = seconds_in_day
+        # Next business day
+      endif
+
+      # Calculate the exact first delivery date
+      assign first_delivery_date = today | plus: first_day_seconds
+      assign first_delivery_weekday = first_delivery_date | date: '%w' | plus: 0
+
+      # Calculate second delivery date (always one business day after first
+      if first_delivery_weekday == 5
+        # If first day is Friday
+        assign second_day_seconds = seconds_in_day | times: 3
+        # Skip to Monday
+        assign second_delivery_date = first_delivery_date | plus: second_day_seconds
+      elsif first_delivery_weekday == 6
+        # If first day is Saturday (shouldn't happen but just in case
+        assign second_day_seconds = seconds_in_day | times: 2
+        # Skip to Monday
+        assign second_delivery_date = first_delivery_date | plus: second_day_seconds
+      else
+        assign second_day_seconds = seconds_in_day
+        # Just add one day
+        assign second_delivery_date = first_delivery_date | plus: second_day_seconds
+      endif
+
+      assign first_date = first_delivery_date | date: '%d.%m'
+      assign second_date = second_delivery_date | date: '%d.%m'
+      assign date_range = first_date | append: ' - ' | append: second_date
+
+      if product.available
+        assign link_subtitle = link_subtitle | replace: '[delivery-date]', date_range
+      else
+        assign link_subtitle = null
+      endif
+    endif
+  endif
+-%}
+
+{% if show_badge %}
+  {% capture icon_left %}
+    <div class="trust-badge__icon" data-aos="img-in" {{ icon_left_style }}>
+      {%- liquid
+        if image_left
+          assign icon_width = icon_left_size
+          assign icon_width_x2 = icon_width | times: 2
+          assign icon_sizes = icon_width | append: 'px'
+          assign icon_widths = icon_width | append: ', ' | append: icon_width_x2
+  
+          render 'image', image: image_left, width: icon_width_x2, sizes: icon_sizes, widths: icon_widths, show_backfill: false
+        else
+          render 'animated-icon', filename: block.settings.icon_left
+        endif
+      -%}
+    </div>
+  {% endcapture %}
+  
+  {% capture icon_right %}
+    <div class="trust-badge__icon" data-aos="img-in" {{ icon_right_style }}>
+      {%- liquid
+        if image_right
+          assign icon_width = icon_right_size
+          assign icon_width_x2 = icon_width | times: 2
+          assign icon_sizes = icon_width | append: 'px'
+          assign icon_widths = icon_width | append: ', ' | append: icon_width_x2
+  
+          render 'image', image: image_right, width: icon_width_x2, sizes: icon_sizes, widths: icon_widths, show_backfill: false
+        else
+          render 'animated-icon', filename: block.settings.icon_right
+        endif
+      -%}
+    </div>
+  {% endcapture %}
+
+  <popup-component class="product__block block-padding" {{ block_style }}>
+    <a 
+      href="{{ block.settings.page.url | default: '#' }}"
+      class="trust-badge"
+      data-popup-open
+      {{ block.shopify_attributes }}
+    >
+      {{ icon_left }}
+      
+      <div class="trust-badge__entry">
+        <h5>
+          <strong>{{ link_title | escape }}</strong>
+        </h5>
+
+        {{ link_subtitle }}
+      </div>
+
+      {{ icon_right }}
+    </a>
+
+    <dialog
+      class="drawer"
+      aria-hidden="true"
+      inert
+      data-scroll-lock-required
+    >
+      <form method="dialog">
+        <button class="visually-hidden no-js" aria-label="{{ 'general.accessibility.close' | t }}"></button>
+      </form>
+
+      <div class="drawer__inner {{ text_font_size }}" data-scroll-lock-scrollable>
+        <div class="drawer__head">
+          <h3 class="drawer__heading">
+            {{ popup_title | escape }}
+          </h3>
+
+          <button
+            type="button"
+            class="drawer__close"
+            data-popup-close
+            autofocus
+            aria-label="{{ 'general.accessibility.close' | t }}"
+          >
+            {%- render 'icon-cancel' -%}
+          </button>
+        </div>
+
+        <div class="drawer__body product__popup__content" data-pickup-drawer-body data-scroll-lock-scrollable>
+          {{ popup_content }}
+        </div>
+      </div>
+    </dialog>
+  </popup-component>
+{% endif %}

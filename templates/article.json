@@ -1,0 +1,161 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_JjTJjH": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_fGyph9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_3.svg",
+            "image_width": 30
+          }
+        },
+        "text_4XyQaG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Най-популярните марки в едно място<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_FiUEgL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.svg",
+            "image_width": 20
+          }
+        },
+        "text_wiGnHV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 de clienți mulțumiți<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_Lwcyby": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.svg",
+            "image_width": 20
+          }
+        },
+        "text_MtenCM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>До 100 дни тест период<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_Hrepba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_4.svg",
+            "image_width": 20
+          }
+        },
+        "text_wehd6r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна доставка над 100лв<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_QYFec8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_5.svg",
+            "image_width": 20
+          }
+        },
+        "text_Tr7WFx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна удължена гаранция<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_fGyph9",
+        "text_4XyQaG",
+        "image_FiUEgL",
+        "text_wiGnHV",
+        "image_Lwcyby",
+        "text_MtenCM",
+        "image_Hrepba",
+        "text_wehd6r",
+        "image_QYFec8",
+        "text_Tr7WFx"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "article",
+      "blocks": {
+        "related-products": {
+          "type": "related",
+          "settings": {
+            "title": "Related products",
+            "product_list": []
+          }
+        },
+        "recent-articles": {
+          "type": "recent",
+          "settings": {
+            "title": "Наскоро добавени статии"
+          }
+        }
+      },
+      "block_order": ["related-products", "recent-articles"],
+      "settings": {
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": ["section_announcement_JjTJjH", "main"]
+}

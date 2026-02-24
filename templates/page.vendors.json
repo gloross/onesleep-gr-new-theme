@@ -1,0 +1,341 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_eA8J77": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_dzqxMB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandShake.svg",
+            "image_width": 30
+          }
+        },
+        "text_Yb3ctK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_zF99Ex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Star.svg",
+            "image_width": 20
+          }
+        },
+        "text_dk8fH6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_egwe6z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bubble.svg",
+            "image_width": 20
+          }
+        },
+        "text_FEGxxG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Până la 100 de zile perioadă de testare</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_7pkYNr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Truck.svg",
+            "image_width": 20
+          }
+        },
+        "text_ye8Dfp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livrare gratuită pentru comenzi de peste 50€</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_GhfWgg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sheild.svg",
+            "image_width": 20
+          }
+        },
+        "text_Kznwbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garanție extinsă gratuită</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_dzqxMB",
+        "text_Yb3ctK",
+        "image_zF99Ex",
+        "text_dk8fH6",
+        "image_egwe6z",
+        "text_FEGxxG",
+        "image_7pkYNr",
+        "text_ye8Dfp",
+        "image_GhfWgg",
+        "text_Kznwbm"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-medium",
+        "show_content": true,
+        "text_font_size": "body-small",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_hab6Db": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_x9V4c4": {
+          "type": "heading",
+          "settings": {
+            "title": "Producătorii",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h1",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_x9V4c4"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify://shop_images/faq-banner-dark.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-3",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_accordion_group_ypQqr7": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "question_8i7MX8": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Sleepy",
+            "content": "<p>Saltelele Sleepy au fost create de experți cu peste 15 ani de experiență pentru a oferi clienților săi produse pentru somn de o calitate excepțională, o gamă diversă de produse, tehnologii inovatoare și servicii de primă clasă. În catalogul de produse veți găsi saltele simple si duble, perne, protecții pentru saltea și somiere pentru saltele. Materialele pe care Sleepy le folosește în produsele sale au trecut o serie de teste, garantând calitatea lor înaltă. Spuma din care sunt fabricate produsele este cu densitate mare, ceea ce demonstrează calitatea unei saltele și creează suportul necesar pentru o odihnă de calitate. Toate produsele Sleepy se livrează gratuit și se găsesc în stoc.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_dE9aLb": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Magniflex",
+            "content": "<p>Saltelele Magniflex fabricate în Italia sunt cele mai de lux produse disponibile pe onesleep.com. Acestea combină materiale și tehnologii brevetate care sunt rezultatul a peste 60 de ani de experiență și cercetare în arta somnului. Seria luxoasă de saltele Magniflex are o garanție pe viață - un simbol al calității italiene fără compromisuri și al atenției la detalii până la ultima cusătură. Saltelele au o înălțime impresionantă datorită combinației de materiale multiple precum spumă cu memorie, spumă Eliosoft foarte elastică și spumă Elioform cu densitate mare și duritate diferită, cât și spumă gel. Materialele textile ale saltelelor au tratamente anti-acarieni și antibacteriene, iar in colecție veți găsi textile cu arginti, fibre Lenpur termoregulatoare, lână de cămilă, cașmir, mătase, păr de cal și tehnologie Outlast, specifică brandului.</p><p>Produsele pe care Magniflex le oferă sunt saltele față-verso cu spumă cu memorie, spumă gel și textile cu tratamente antibacteriene, perne clasice și anatomice din spumă cu memorie 100%, precum și unele dintre cele mai căutate saltele pentru bebeluși.</p><p>Toate saltelele Magniflex sunt cu două fețe, ceea ce le prelungește durata de viață și vă oferă posibilitatea de a alege diferite niveluri de confort. Livrăm toate produsele Magniflex rulate și vacumate, cu livrare rapidă gratuită.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_BKJYdc": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "isleep",
+            "content": "<p>Saltelele isleep sunt fabricate în Italia cu materiale de înaltă clasă, tehnologii inovatoare și materiale textile de calitate tratate antibacterian și antiacarieni.</p><p>Toate saltelele isleep sunt cu două fețe și pot fi rotite atât pe plan vertical cât și orizontal, ceea ce le prelungește semnificativ durata de viață utilă, iar garanția pe care o primiți la achiziționarea unei saltele deste de 25 de ani.</p><p>În portofoliul de produse isleep, veți găsi saltele față-verso cu spumă cu memorie, spumă elastică, toppere și protecții impermeabile pentru saltea, perne clasice sau anatomice din 100% din spumă cu memorie și huse detașabile cu fermoar.</p><p>Cu isleep aveți calitate italiană la un preț rezonabil, cu livrare rapidă gratuită și o garanție de lungă durată.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_prgpzF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Mlily",
+            "content": "<p>Saltelele Mlily intră au apărut pe piață cu produsele lor inovatoare pentru un somn profund și relaxant - pentru o dimineață mai proaspătă și cu adevărat bună. Parteneriatul lor cu giganții fotbalului Manchester United și echipa lor de recuperare a sportivilor este o dovadă a devotamentului lui Mlily pentru dezvoltarea, testarea și îmbunătățirea produselor pentru a obține un mediu de somn perfect.</p><p>Toate saltelele Mlily au husă detașabilă pentru o curățare ușoară și comodă, se livrează gratuit sub forma de rolă pentru un transport ușor.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_bnftFT": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "TED",
+            "content": "<p>Ted este unul dintre cele mai consacrate branduri de saltele de pe piață, lider în producția acestora cu peste 25 de ani de experiență și mii de clienți mulțumiți. Datorită tehnologiilor și materialelor inovatoare, TED îmbunătățește confortul în cel mai privat spațiu din casa ta, dormitorul.</p><p>Portofoliul de saltele TED include produse cu diferite tipuri de spumă, arcuri, spumă cu memorie și tratamente textile.</p><p>Dacă sunteți în căutarea unei saltele cu arcuri, puteți alege între un sistem de arcuri împachetate în buzunare individuale sau micro-buzunare, diferența fiind că acestea din urmă sunt mai mici ca dimensiuni și mai multe la număr, precum și arcuri Bonell, cunoscute pentru durabilitatea lor excepțională, chiar și la greutăți mai mari, de aceea sunt adesea preferate pentru mobillarea saltelelor de hotel.</p><p>Saltelele mai durabile sunt realizate în întregime din spumă. Aceste produse din colecția TED sunt spuma poliuretanică standard, o spumă foarte elastică care oferă mai multă stabilitate datorită distribuției uniforme a greutății corporale pe suprafața saltelei. Una dintre cele mai lungi garantii pe care o veți gasi la saltelele din latex, datorită elasticității ridicate a acestui material. În timp, nu-și pierde elasticitatea și își păstrează forma pentru o perioadă lungă de timp.</p><p>Există două tipuri de spumă cu memorie în saltele: spumă cu memorie standard, care reacționează la presiune și căldură, și spumă cu memorie aqua, care reacționează chiar și la temperaturi mai scăzute și creează o senzație ușoară și relaxantă, ca și cum dormitorul plutește pe apă.</p><p>TED este unul dintre puținii producători de pe piață care oferă tratament spumei cu minerale:</p><p>Spuma AmbraFoam este tratată cu chihlimbar, care elimină toxinele din organism.</p><p>Spuma NeroPur este tratată cu neroli: floare de portocal cu efect calmant, aromaterapie pentru organism.</p><p>ZeoFoam este o spumă special tratată cu zeolit, cunoscută pentru proprietățile sale detoxifiante și de tonifiere corporală.</p><p>Spuma Cool Gel este o spumă cu memorie cu picături de gel răcoritoare adăugate la compoziția sa.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_AFYJga": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Don Almohadon",
+            "content": "<p>Saltelele spaniole Don Almohadon combină materiale și tehnologii spaniole de înaltă clasă, rezultatul anilor de cercetare a celor mai bune metode de producție. Produsele ies în evidență prin materiale ecologice și inofensive, calitate înaltă a produselor și saltele de lux accesibile la preț mic. Unele dintre materialele folosite la producția produselor sunt spuma cu memorie, spuma Eliocell, piele întoarsă, latex și textile silențioase cu proprietăți antibacteriene.</p><p>Toate saltelele se livrează cu transport gratuit și o garanție de 8 ani.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_BHhBRR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Green Future",
+            "content": "<p>Green Future Group este unul din producătorii de top din România de articole premium destinate confortului.</p><p>Fondată în 2004, compania a fost construită în jurul unui nucleu de oameni tineri și dinamici.</p><p>Birourile noastre sunt situate în București, iar facilitățile de producție în Timișoara și Urziceni. Cu peste 18 ani de experiență în domeniu, suntem dedicați să aducem în fața consumatorilor numai produse de cea mai înaltă calitate.</p><p>Ne adresăm atât consumatorilor finali, dar și clienților HORECA și celor din industria de mobilă. Suntem prezenți atât pe piața din România cât și în cele din Anglia, Bulgaria, Germania, Italia, Moldova și Suedia.</p><p>Producem o linie completă de produse premium destinate confortului: saltele, perne, pilote, protecții saltea și lenjerii de pat. Acestea sunt fabricate în România în facilitățile proprii de producție, sub directa noastră supraveghere și monitorizare a calității.</p><p>Fabricăm produse destinate somnului atât sub brandul propriu Green Future, cât și sub brandurile partenerilor noștri. Articolele noastre sunt fabricate la cele mai înalte standarde de calitate, din materiale fine și variate, cum ar fi bumbacul, puful de gâscă, bambusul, lâna și înlocuitori sintetici ai acestora.</p><p>Dezvoltam parteneriate si cu alti furnizori, prin care comercializam o serie de produse pentru casa, avand rolul de importator/distribuitor.</p><p>Suntem mândri de produsele noastre și ne străduim în fiecare zi să ne facem clienții fericiți prin calitatea produselor și serviciilor noastre.<br/></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_8i7MX8",
+        "question_dE9aLb",
+        "question_BKJYdc",
+        "question_prgpzF",
+        "question_bnftFT",
+        "question_AFYJga",
+        "question_BHhBRR"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_newsletter_7DCXif": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_HRbE6F": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "Nu doar povești de adormit..",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Abonează-te pentru sfaturi, noutăți și ofertele promoționale</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Trimite",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_HRbE6F"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "color_scheme": "scheme-8",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_announcement_eA8J77",
+    "main",
+    "section_hero_hab6Db",
+    "section_accordion_group_ypQqr7",
+    "section_newsletter_7DCXif"
+  ]
+}

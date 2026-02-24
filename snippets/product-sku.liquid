@@ -1,0 +1,17 @@
+{% liquid 
+  assign current_variant = product.selected_or_first_available_variant
+
+  if padding_bottom
+    assign padding_bottom = '--block-padding-bottom: ' | append: padding_bottom | append: 'px;'
+  endif
+%}
+
+<div
+  class="product__block product__sku block-padding"
+  {{ block_style }}
+  style="{{ padding_bottom }}"
+  data-variant-sku
+  {{ block.shopify_attributes }}
+>
+  {{ 'products.product.sku' | t }}: {{ current_variant.sku }}
+</div>

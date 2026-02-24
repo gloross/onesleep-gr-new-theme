@@ -1,0 +1,102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Onesleep.com este un magazin online de produse pentru somn - saltele, perne, protecții pentru saltea, somiere, accesorii și paturi. Aici găsiți totul despre somn - cele mai populare mărci de pe piață, sfaturi de specialitate, oferte atractive și avantaje la cumpărături.<br/>Bine ați venit!<br/><br/><strong>Program de lucru cu clienții:<br/>Luni - Vineri -</strong>09:00 - 18:00<br/><strong>Sâmbătă și Duminică</strong>- Liber</p>",
+            "column_width": 25,
+            "enable_follow_on_shop": false,
+            "enable_accordion": false
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "link-list",
+            "title": "Detalii",
+            "heading_font_size": "heading-x-small",
+            "column_width": 20,
+            "enable_accordion": true
+          }
+        },
+        "links": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "link-list-1",
+            "title": "Comenzi și livrări",
+            "heading_font_size": "heading-x-small",
+            "column_width": 20,
+            "enable_accordion": true
+          }
+        },
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Nu doar povești de adormit",
+            "heading_font_size": "heading-small",
+            "text": "<p>Abonează-te pentru a primi sfaturi, noutăți și oferte promoționale.</p>",
+            "button_text": "Trimite",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_social_links": true,
+            "column_width": 35
+          }
+        }
+      },
+      "block_order": [
+        "social",
+        "footer-1",
+        "links",
+        "footer-0"
+      ],
+      "settings": {
+        "logo_image_width": 150,
+        "color_scheme": "scheme-6",
+        "border_color": "#212121",
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "settings": {
+        "linklist": "",
+        "text_font_size": "body-small",
+        "footer_payment_enable": true,
+        "enable_greyscale": false,
+        "show_locale_selector": true,
+        "show_globe_icon": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "color_scheme": "scheme-7",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "supporting-menu"
+  ]
+}

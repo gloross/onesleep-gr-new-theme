@@ -1,0 +1,41 @@
+{% comment %}
+  Renders a badge
+
+  Accepts:
+  - badge_class: {String} the class of the badge (required)
+  - badge_text: {String} the text of the badge (required)
+  - aos_delay: {String} the delay for the AOS animation (required)
+  - aos_duration: {String} the duration for the AOS animation (required)
+  - aos_anchor: {String} the anchor for the AOS animation (required)
+
+  Usage:
+  {% render 'product-badge', badge_class: badge_class, badge_text: badge_text, aos_delay: aos_delay, aos_duration: aos_duration, aos_anchor: aos_anchor %}
+{% endcomment %}
+{%- assign sale_badge_type = settings.sale_badge_type -%}
+
+{%- if product.tags contains 'absolute_discount' -%}
+  {%- assign sale_badge_type = 'money' -%}
+{%- endif -%}
+
+{%- assign vendor = vendor | default: false -%}
+
+<span
+  class="{{ badge_class }}"
+  data-aos="fade"
+  data-aos-delay="{{ aos_delay }}"
+  data-aos-duration="{{ aos_duration }}"
+  data-aos-anchor="{{ aos_anchor }}"
+  {% if sale_badge %}
+    data-price-off-badge
+    data-sale-type="{{ sale_badge_type }}"
+  {% endif %}
+  {%- if badge_text == 'Ultimele bucăți' -%}
+    style="background-color: #DB2229;"
+  {%- endif -%}
+>
+  {% if sale_badge %}
+    <span data-price-off-amount>{{ discount }}</span>
+  {% else %}
+    {{ badge_text }}
+  {% endif %}
+</span>

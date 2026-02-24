@@ -1,0 +1,160 @@
+{%- liquid
+  assign mattress_type = 'products.product.mattress_type' | t
+  assign firmness = 'products.product.firmness' | t
+  assign max_load = 'products.product.max_load' | t
+  assign height = 'products.product.height' | t
+  assign core_composition = 'products.product.core_composition' | t
+  assign core_technology = 'products.product.core_technology' | t
+  assign core_layers = 'products.product.core_layers' | t
+  assign removable_cover = 'products.product.removable_cover' | t
+  assign cover_filling = 'products.product.cover_filling' | t
+  assign cover_technology = 'products.product.cover_technology' | t
+  assign warranty = 'products.product.warranty' | t
+  assign packaging = 'products.product.packaging' | t
+  assign frame_technology = 'products.product.frame_technology' | t
+  assign bed_type = 'products.product.bed_type' | t
+  assign pillow_shape = 'products.product.pillow_shape' | t
+  assign frame_assembly = 'products.product.frame_assembly' | t
+  assign protector_type = 'products.product.protector_type' | t
+  assign rack = 'products.product.rack' | t
+  assign country_of_origin = 'products.product.country_of_origin' | t
+
+  if product.metafields.custom.pim_removable_cover == true
+    assign removable_cover_type = 'products.product.removable_cover_yes' | t
+  elsif product.metafields.custom.pim_removable_cover == false
+    assign removable_cover_type = 'products.product.removable_cover_no' | t
+  endif
+
+  if product.metafields.custom.pim_rack == 'Da'
+    assign rack_type = 'products.product.rack_yes' | t
+  elsif product.metafields.custom.pim_rack == 'Nu'
+    assign rack_type = 'products.product.rack_no' | t
+  endif
+
+  if product.metafields.custom.pim_frame_type == 'Da'
+    assign frame_type = 'products.product.frame_yes' | t
+  elsif product.metafields.custom.pim_frame_type == 'Nu'
+    assign frame_type = 'products.product.frame_no' | t
+  endif
+
+  if product.metafields.custom.pim_max_load_user_kg != blank
+    assign max_load_formatted = product.metafields.custom.pim_max_load_user_kg | split: '.' | first
+    assign max_load_value = 'products.product.max_load_value' | t | replace: '{{ weight }}', max_load_formatted
+  endif
+
+  if product.metafields.custom.pim_height_cm != blank
+    assign height_value_formatted = product.metafields.custom.pim_height_cm | split: '.' | first
+    assign height_value = 'products.product.height_value' | t | replace: '{{ height }}', height_value_formatted
+  endif
+
+  assign pim_layerd_formatted = product.metafields.custom.pim_layers | split: '.' | first
+  if pim_layerd_formatted == '1'
+    assign core_layers_value = 'products.product.core_layers_value.one' | t | replace: '{{ layers }}', pim_layerd_formatted
+  elsif pim_layerd_formatted > '1'
+    assign core_layers_value = 'products.product.core_layers_value.other' | t | replace: '{{ layers }}', pim_layerd_formatted
+  endif
+
+  assign warranty_years_formatted = product.metafields.custom.pim_warranty_yrs | split: '.' | first
+
+  if warranty_years_formatted == '1'
+    assign warranty_value = 'products.product.warranty_value.one' | t | replace: '{{ years }}', warranty_years_formatted
+  elsif warranty_years_formatted > '1'
+    assign warranty_value = 'products.product.warranty_value.other' | t | replace: '{{ years }}', warranty_years_formatted
+  endif
+-%}
+
+<script>
+  console.log({{ product.metafields.custom.pim_height_cm | json }})
+</script>
+{%- capture specification_content -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-single-mattress',
+    title: mattress_type,
+    type: product.metafields.custom.pim_mattress_type.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-firmness',
+    title: firmness,
+    type: product.metafields.custom.pim_firmness.value
+  -%}
+  {%- render 'product-metafield-specifications-item', icon: 'icon-orthopedic', title: max_load, type: max_load_value -%}
+  {%- render 'product-metafield-specifications-item', icon: 'icon-arrow-vertical', title: height, type: height_value -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-core-composition',
+    title: core_composition,
+    type: product.metafields.custom.pim_core_composition.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-core-technology',
+    title: core_technology,
+    type: product.metafields.custom.pim_core_technology.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-core-layers',
+    title: core_layers,
+    type: core_layers_value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-zipper',
+    title: removable_cover,
+    type: removable_cover_type
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-cover-filling',
+    title: cover_filling,
+    type: product.metafields.custom.pim_cover_filling.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-cover-technology',
+    title: cover_technology,
+    type: product.metafields.custom.pim_cover_technology.value
+  -%}
+  {%- render 'product-metafield-specifications-item', icon: 'icon-warranty', title: warranty, type: warranty_value -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-packaging',
+    title: packaging,
+    type: product.metafields.custom.pim_packaging.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-frame-type',
+    title: frame_technology,
+    type: product.metafields.custom.pim_frame_technology.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-bed-type',
+    title: bed_type,
+    type: product.metafields.custom.pim_bed_type.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-pillow-shape',
+    title: pillow_shape,
+    type: product.metafields.custom.pim_pillow_shape.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-frame-assembly',
+    title: frame_assembly,
+    type: frame_type
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-protector-type',
+    title: protector_type,
+    type: product.metafields.custom.pim_protector_type.value
+  -%}
+  {%- render 'product-metafield-specifications-item',
+    icon: 'icon-rack',
+    title: rack,
+    type: rack_type
+  -%}
+
+    {%- render 'product-metafield-specifications-item',
+      icon: 'icon-country-of-origin',
+      title: country_of_origin,
+      type: product.metafields.custom.pim_country_of_origin.value
+    -%}
+{%- endcapture -%}
+
+{%- if specification_content != blank -%}
+  <div class="spec">
+    {{ specification_content }}
+  </div>
+{%- endif -%}

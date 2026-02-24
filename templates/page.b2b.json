@@ -1,0 +1,543 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_eA8J77": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_dzqxMB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HandShake.svg",
+            "image_width": 30
+          }
+        },
+        "text_Yb3ctK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_zF99Ex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Star.svg",
+            "image_width": 20
+          }
+        },
+        "text_dk8fH6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_egwe6z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bubble.svg",
+            "image_width": 20
+          }
+        },
+        "text_FEGxxG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Până la 100 de zile perioadă de testare</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_7pkYNr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Truck.svg",
+            "image_width": 20
+          }
+        },
+        "text_ye8Dfp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Livrare gratuită pentru comenzi de peste 50€</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_GhfWgg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sheild.svg",
+            "image_width": 20
+          }
+        },
+        "text_Kznwbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garanție extinsă gratuită</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_dzqxMB",
+        "text_Yb3ctK",
+        "image_zF99Ex",
+        "text_dk8fH6",
+        "image_egwe6z",
+        "text_FEGxxG",
+        "image_7pkYNr",
+        "text_ye8Dfp",
+        "image_GhfWgg",
+        "text_Kznwbm"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-medium",
+        "show_content": true,
+        "text_font_size": "body-small",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_double_UrUtNH": {
+      "type": "section-double",
+      "blocks": {
+        "heading_tQTAh4": {
+          "type": "heading",
+          "settings": {
+            "title": "ALĂTURĂ-TE FRANCIZEI DE RETAIL CU PRODUSE PENTRU SOMN CU CEA MAI RAPIDĂ CREȘTERE DIN SUD-ESTUL EUROPEI",
+            "heading_font_size": "heading-x-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_ME7ewR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Despre noi:</strong></p><p>Un jucător omnicanal pe mai multe piețe, cu un portofoliu bogat de saltele, perne și accesorii aferente unui somn confortabil care acoperă toate segmentele de preț.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_deDFMm": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_tQTAh4",
+        "text_ME7ewR",
+        "buttons_deDFMm"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Asset_1_1.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_multicolumn_M6A6TC": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_xN3QQC": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "20+ de ani",
+            "heading_font_size": "heading-small",
+            "text": "<p>în domeniul produselor pentru somn <strong>5 </strong>țari</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_KzUUjj": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "7 magazine franciză",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>+ 1000</strong> de parteneri de retail independenți</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_grpDFe": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "0 euro taxă",
+            "heading_font_size": "heading-small",
+            "text": "<p>de franciză pentru<br/>primele 12 luni</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_WPddgV": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-location",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "+135%",
+            "heading_font_size": "heading-small",
+            "text": "<p>creștere anuală 2025 vs 2024</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_xN3QQC",
+        "icon_KzUUjj",
+        "icon_grpDFe",
+        "icon_WPddgV"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-5",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_Ymxx6w": {
+      "type": "section-rich-text",
+      "blocks": {
+        "buttons_TnBMMM": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Alăturați-ne",
+            "button_url": "#forma",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "buttons_TnBMMM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-5",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "section_highlights_GGUxcV": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_3Ymi6B": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Spirit antreprenorial și dorința de a dezvolta propria afacere în franciză",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_UkB9c3": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Investiție inițială 30.000 - 50.000 Eur + TVA",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_VYraid": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Suprafață recomandată a magazinului 50 - 100 m²",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_3Ymi6B",
+        "highlight_UkB9c3",
+        "highlight_VYraid"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 3,
+        "heading": "Ce așteptăm de la tine",
+        "heading_position": "text-left",
+        "heading_font_size": "heading-medium",
+        "text_font_size": "body-medium",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_FEndDH": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify://shop_images/2880x754-Franchise_page-One-sleep-06.25-RO_1.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/1200x1200-Franchise_page-One-sleep-06.25-RO_1.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_hero_NcQUfU": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "shopify://shop_images/Rectangle_12.jpg",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/Rectangle_12_1.jpg",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_placeholder": true
+      }
+    },
+    "section_double_bbediU": {
+      "type": "section-double",
+      "blocks": {
+        "heading_4UBGkV": {
+          "type": "heading",
+          "settings": {
+            "title": "Descoperă noile noastre locații",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nJ9Apk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Аcum puteți testa saltelele noastre în peste 16 locații fizice din toată România</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_9B8FrD": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Găsește magazin",
+            "button_url": "shopify://pages/store-locator",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_4UBGkV",
+        "text_nJ9Apk",
+        "buttons_9B8FrD"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/map_1.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_code_HqBKFJ": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<div id=\"forma\">\n\n</div>\n<h3>Contact</h3>\n\n<script charset=\"utf-8\" type=\"text/javascript\" src=\"//js-eu1.hsforms.net/forms/embed/v2.js\"></script>\n<script>\n  hbspt.forms.create({\n    portalId: \"25978180\",\n    formId: \"b5082bb1-3d2e-459c-94c9-fdcf62a21511\",\n    region: \"eu1\"\n  });\n\n</script>",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_newsletter_7xELgM": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_FEMepy": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "Nu doar povești de adormit..",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Abonează-te pentru sfaturi, noutăți și ofertele promoționale</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "Trimite",
+            "show_arrow": false,
+            "terms": false,
+            "show_name": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": true,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_FEMepy"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "two-fifty-height-hero--mobile",
+        "color_scheme": "scheme-8",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "section_announcement_eA8J77",
+    "main",
+    "section_double_UrUtNH",
+    "section_multicolumn_M6A6TC",
+    "section_rich_text_Ymxx6w",
+    "section_highlights_GGUxcV",
+    "section_hero_FEndDH",
+    "section_hero_NcQUfU",
+    "section_double_bbediU",
+    "section_custom_code_HqBKFJ",
+    "section_newsletter_7xELgM"
+  ]
+}

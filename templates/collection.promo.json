@@ -1,0 +1,452 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_announcement_PBfjcX": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_KLwNFz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_3.svg",
+            "image_width": 30
+          }
+        },
+        "text_AV9eaG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Най-популярните марки на едно място<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_9D4Rmz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.svg",
+            "image_width": 20
+          }
+        },
+        "text_6PUpCm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>+1 000 000 de clienți mulțumiți<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_jtrEtd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.svg",
+            "image_width": 20
+          }
+        },
+        "text_8raA6t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>До 100 дни тест период<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_edrmwR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_4.svg",
+            "image_width": 20
+          }
+        },
+        "text_RppWpz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна доставка над 100лв<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "image_LeE6LN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Layer_1_5.svg",
+            "image_width": 20
+          }
+        },
+        "text_4A7rMC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Безплатна удължена гаранция<\/p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "image_KLwNFz",
+        "text_AV9eaG",
+        "image_9D4Rmz",
+        "text_6PUpCm",
+        "image_jtrEtd",
+        "text_8raA6t",
+        "image_edrmwR",
+        "text_RppWpz",
+        "image_LeE6LN",
+        "text_4A7rMC"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-5",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "highlights": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_nhkf7G": {
+          "type": "highlight",
+          "settings": {
+            "heading": "New Arrivals",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_WREypK": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Best Sellers",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_LKpYtB": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Sale",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_Cr3qqN": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Rings",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_BfUMW8": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Earrings",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        },
+        "highlight_J6Ue7q": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Necklaces",
+            "url": "shopify:\/\/collections\/all",
+            "color": "#212121",
+            "bg_color": "#f5f2ec",
+            "border_color": "#f5f2ec"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_nhkf7G",
+        "highlight_WREypK",
+        "highlight_LKpYtB",
+        "highlight_Cr3qqN",
+        "highlight_BfUMW8",
+        "highlight_J6Ue7q"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "button",
+        "grid": 6,
+        "heading": "",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-large",
+        "text_font_size": "body-small",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "heading_tag": "automatic"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_hero_UXPhET": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "use_timer": false,
+        "start_date": "2024-08-01",
+        "start_time": "00:00",
+        "start_period": "am",
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "end_period": "am",
+        "image_1": "{{ collection.metafields.custom.desktop_image.value }}",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "{{ collection.metafields.custom.mobile_image.value }}",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": false
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": false,
+        "flex_align": "align--middle-left",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "featured_image_VmCNnJ": {
+          "type": "featured_image",
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/cf866e0de43fd3015fb5b01eadf21ca47287cc87.png",
+            "position": 8,
+            "featured_heading": "Затруднения с избора?",
+            "heading_font_size": "heading-small",
+            "featured_text": "<p>Попълни нашия тест за матраци и открий перфектния избор за теб<\/p>",
+            "featured_button_text": "Открий своя матрак",
+            "featured_button_link": "shopify:\/\/pages\/quiz-mattresses",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "featured_color_text": "#ffffff",
+            "overlay_type": "opacity",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": ["featured_image_VmCNnJ"],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "1",
+        "products_per_page": 24,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_reviews_9g8JcG": {
+      "type": "section-reviews",
+      "blocks": {
+        "review_RMdkQh": {
+          "type": "review",
+          "settings": {
+            "title": "Валентин Георгиев",
+            "subheading": "",
+            "review_content": "<p>Останах изключително доволен от покупката си!<br\/>Доставката беше бърза, а продуктът надмина очакванията ми - стабилен, удобен и изработен с внимание към детайла. Благодаря за професионалното отношение и коректността!<\/p>",
+            "featured_image": "shopify:\/\/shop_images\/6264e33a11fe57edd9fe0dd6fc8192385b34ab5b.jpg",
+            "review_url": ""
+          }
+        },
+        "review_pdxdYq": {
+          "type": "review",
+          "settings": {
+            "title": "Силвия Тодорова",
+            "subheading": "",
+            "review_content": "<p>Приятно съм изненадана от обслужването – всичко мина леко, без излишни усложнения.<br\/>Матракът пристигна навреме, добре опакован и точно както беше описан.<br\/>Качеството е страхотно, а цената напълно оправдана. Препоръчвам с две ръце!<\/p>",
+            "featured_image": "shopify:\/\/shop_images\/6264e33a11fe57edd9fe0dd6fc8192385b34ab5b.jpg",
+            "review_url": ""
+          }
+        },
+        "review_MR7fmX": {
+          "type": "review",
+          "settings": {
+            "title": "Георги Николов",
+            "subheading": "",
+            "review_content": "<p>Поръчах за родителите ми и те са много доволни. Спят като бебета.<br\/>Доставката беше точна, а консултантът по телефона беше любезен и отзивчив и ми помогна с избора.<\/p>",
+            "review_url": ""
+          }
+        }
+      },
+      "block_order": ["review_RMdkQh", "review_pdxdYq", "review_MR7fmX"],
+      "disabled": true,
+      "name": "Testimonials",
+      "settings": {
+        "show_featured_image": true,
+        "image_aspect_ratio": 1,
+        "show_quotation_marks": true,
+        "heading_font_size": "heading-small",
+        "text_align": "text-left",
+        "color_scheme": "",
+        "card_bg_color": "",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_CLbdKV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_8dLYLT": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.description }}",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": ["text_8dLYLT"],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_rich_text_CpWnk8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qjWijJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Твоето място за съня",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_9YLWhJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Пълен наръчник за избор на матрак и продукти за сън, полезна информация как да спиш по-добре и още важни теми:<\/p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": ["heading_qjWijJ", "text_9YLWhJ"],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_type": "disabled",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_blog_U86qXe": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "patevoditel-za-dobar-san",
+        "aspect_ratio": 0.8,
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper",
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_announcement_PBfjcX",
+    "highlights",
+    "subcollections",
+    "section_hero_UXPhET",
+    "hero",
+    "main",
+    "section_reviews_9g8JcG",
+    "section_rich_text_CLbdKV",
+    "section_rich_text_CpWnk8",
+    "section_blog_U86qXe"
+  ]
+}

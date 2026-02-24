@@ -1,0 +1,50 @@
+{% if icon != blank and title != blank and type != blank %}
+  <div class="spec__item">
+    <div class="spec__icon">
+      {% case icon %}
+        {% when 'icon-single-mattress' %}
+          {% render 'icon-single-mattress' %}
+        {% when 'icon-firmness' %}
+          {% render 'icon-firmness' %}
+        {% when 'icon-orthopedic' %}
+          {% render 'icon-orthopedic' %}
+        {% when 'icon-arrow-vertical' %}
+          {% render 'icon-arrow-vertical' %}
+        {% when 'icon-core-composition' %}
+          {% render 'icon-core-composition' %}
+        {% when 'icon-core-technology' %}
+          {% render 'icon-core-technology' %}
+        {% when 'icon-core-layers' %}
+          {% render 'icon-core-layers' %}
+        {% when 'icon-zipper' %}
+          {% render 'icon-zipper' %}
+        {% when 'icon-cover-filling' %}
+          {% render 'icon-cover-filling' %}
+        {% when 'icon-cover-technology' %}
+          {% render 'icon-cover-technology' %}
+        {% when 'icon-warranty' %}
+          {% render 'icon-warranty' %}
+        {% when 'icon-packaging' %}
+          {% render 'icon-packaging' %}
+        {% when 'icon-frame-type' %}
+          {% render 'icon-frame-type' %}
+        {% when 'icon-bed-type' %}
+          {% render 'icon-bed-type' %}
+        {% when 'icon-pillow-shape' %}
+          {% render 'icon-pillow-shape' %}
+        {% when 'icon-protector-type' %}
+          {% render 'icon-protector-type' %}
+        {% when 'icon-rack' %}
+          {% render 'icon-rack' %}
+        {% when 'icon-country-of-origin' %}
+          {% render 'icon-country-of-origin' %}
+        {% when 'icon-frame-assembly' %}
+          {% render 'icon-frame-assembly' %}
+      {% endcase %}
+    </div>
+    <div class="spec__content">
+      <span>{{ title }}</span>
+      <strong>{{ type | join: ',' }}</strong>
+    </div>
+  </div>
+{% endif %}
