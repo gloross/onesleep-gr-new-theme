@@ -22,8 +22,8 @@
             "period": "pm",
             "end_message": "<p>Offer has expired</p>",
             "hide_on_complete": true,
-            "text": "<p>MEGA REDUCERI</p>",
-            "url": "shopify://collections/promotii",
+            "text": "<p>Εκπτώσεις -55%!</p>",
+            "url": "shopify://collections/προσφορές",
             "automatic_countdown": true
           }
         }
@@ -60,15 +60,15 @@
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "bag",
-        "logo": "shopify://shop_images/onesleep-logo_1_3e0ee949-ce46-489d-b0ac-7d55c8dda276.png",
+        "logo": "shopify://shop_images/onesleep-logo_1_cc6e94a8-6f77-4dc1-93ef-15ebe1096642.png",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
-        "main_menu_linklist": "",
+        "main_menu_linklist": "main-navigation",
         "mobile_menu_linklist": "",
         "enable_search": true,
         "show_social_icons": false,
-        "button_text": "0040316300529",
-        "button_link": "tel:+0040316300529",
+        "button_text": "+302311768593",
+        "button_link": "tel:+302311768593",
         "button_type": "btn--white",
         "show_locale_selector": false,
         "show_globe_icon": true,
@@ -94,9 +94,9 @@
         "menu": {
           "type": "menu",
           "settings": {
-            "mobile_menu_linklist": "",
+            "mobile_menu_linklist": "main-navigation",
             "text_font_size": "body-medium",
-            "highlight_item": "Promoții",
+            "highlight_item": "Προσφορές",
             "highlight_item_color": "#ed1717",
             "pin_to_bottom": false,
             "padding": true,
@@ -120,7 +120,7 @@
         "text_HigCwe": {
           "type": "text",
           "settings": {
-            "text": "Ai vreo întrebare?",
+            "text": "Έχετε ερωτήσεις;",
             "align_text": "text-center",
             "text_font_size": "body-medium",
             "pin_to_bottom": true,
@@ -138,8 +138,8 @@
         "button_pP4LYp": {
           "type": "button",
           "settings": {
-            "button_text": "Sună-ne",
-            "button_url": "tel:0040316300529",
+            "button_text": "Καλέστε μας",
+            "button_url": "tel:+302311768593",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--text",
@@ -151,7 +151,7 @@
         "button_FTbBh3": {
           "type": "button",
           "settings": {
-            "button_text": "Profilul meu",
+            "button_text": "Το προφίλ μου",
             "button_url": "/account",
             "button_type": "btn--primary",
             "button_size": "",
@@ -171,7 +171,7 @@
         "button_FTbBh3"
       ],
       "settings": {
-        "logo": "shopify://shop_images/onesleep-logo_1_3e0ee949-ce46-489d-b0ac-7d55c8dda276.png",
+        "logo": "shopify://shop_images/onesleep-logo_1_cc6e94a8-6f77-4dc1-93ef-15ebe1096642.png",
         "logo_max_limit": 120,
         "color_scheme": "scheme-1"
       }

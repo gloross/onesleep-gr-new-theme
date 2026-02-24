@@ -16,10 +16,10 @@
           "type": "_slide-image",
           "name": "Image",
           "settings": {
-            "image": "shopify://shop_images/2800x754_Premimum_Mattresses_HeroHeader_02OneSleep_RO.png",
-            "link": "shopify://collections/promotii",
+            "image": "shopify://shop_images/2800x754_Premimum_Mattresses_HeroHeader_OneSleep_GR_1.png",
+            "link": "shopify://collections/προσφορές",
             "flex_align_desktop": "align--middle-center-desktop",
-            "mobile_image": "shopify://shop_images/1200x1440_Premimum_Mattresses_HeroHeader_02_OneSLeep_RO.png",
+            "mobile_image": "shopify://shop_images/1200x1440_Premimum_Mattresses_HeroHeader_02_OneSleep_-GR_2.png",
             "flex_align_mobile": "align--middle-center-mobile",
             "show_text_background": false,
             "bg_color": "",
@@ -59,7 +59,7 @@
         "text_qetabk": {
           "type": "text",
           "settings": {
-            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
+            "text": "<p>Οι πιο δημοφιλείς μάρκες σε ένα μέρος</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -76,7 +76,7 @@
         "text_FVQYQW": {
           "type": "text",
           "settings": {
-            "text": "<p>+1 000 000 clienți mulțumiți</p>",
+            "text": "<p>+1.000.000 ικανοποιημένοι πελάτες</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -85,8 +85,8 @@
         },
         "image_aVBnFF": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Bubble.svg",
             "image_width": 20
           }
         },
@@ -111,7 +111,7 @@
         "text_Mii3r3": {
           "type": "text",
           "settings": {
-            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
+            "text": "<p>Δωρεάν αποστολή για παραγγελίες άνω των €100</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -128,7 +128,7 @@
         "text_FcQtqD": {
           "type": "text",
           "settings": {
-            "text": "<p>Garanție extinsă gratuită</p>",
+            "text": "<p>Δωρεάν εκτεταμένη εγγύηση</p>",
             "text_font_size": "body-small",
             "color": "",
             "target_device_enabled": false,
@@ -279,9 +279,9 @@
         "end_period": "am",
         "show_product_count": false,
         "tab_navigation_style": "text",
-        "title": "Cele mai bune oferte",
+        "title": "Καλύτερες προσφορές",
         "heading_font_size": "heading-medium",
-        "text": "<p>Economisește mai mult și dormi mai bine. Descoperă produsele noastre recomandate:</p><p></p>",
+        "text": "<p>Εξοικονομήστε περισσότερα και κοιμηθείτε καλύτερα. Ανακαλύψτε τα προτεινόμενα προϊόντα μας:</p>",
         "text_font_size": "body-medium",
         "layout": "left",
         "width": "wrapper",
@@ -291,8 +291,8 @@
         "rows": 1,
         "layout_mobile": "slider",
         "color_scheme": "",
-        "link_text": "Vezi mai multe",
-        "link": "shopify://collections/promotii",
+        "link_text": "Δείτε περισσότερα",
+        "link": "shopify://collections/προσφορές",
         "button_type": "btn--secondary",
         "button_size": "",
         "button_style": "btn--text",
@@ -309,7 +309,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Hard_RO.svg",
             "icon_size": 80,
             "icon_color": "",
             "title": "Tare",
@@ -329,7 +328,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Medium_Hard_RO.svg",
             "icon_size": 80,
             "icon_color": "",
             "title": "Medie-tare",
@@ -349,7 +347,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Meddium_RO.svg",
             "icon_size": 80,
             "icon_color": "",
             "title": "Medie",
@@ -369,7 +366,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/MediumSoft_RO.svg",
             "icon_size": 80,
             "icon_color": "",
             "title": "Medie-moale",
@@ -389,7 +385,6 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-shield",
-            "image": "shopify://shop_images/Soft_RO.svg",
             "icon_size": 80,
             "icon_color": "",
             "title": "Moale",
@@ -438,7 +433,7 @@
           "type": "menu",
           "settings": {
             "column_width": 25,
-            "menu": "indiviual-solutions",
+            "menu": "",
             "heading_font_size": "heading-small"
           }
         },
@@ -612,7 +607,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/Izone_7.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -637,7 +631,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/home-page_images_top-mattress.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -662,7 +655,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/c5b3182fa36e7430d1cacab1675c83e825e5a4a3_1.png",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -712,7 +704,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/home-page_images_bed_1.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -737,7 +728,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/home-page_images_pillows.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -762,7 +752,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/8879a9fc79321ec05f93a4ac34ad195da3fb1f6d.png",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -787,7 +776,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 25,
-            "image": "shopify://shop_images/Percent_Banner.png",
             "image_width": 100,
             "image_aspect_ratio": 1.2,
             "mobile_image_aspect_ratio": 1.5,
@@ -846,13 +834,11 @@
         "end_date": "2024-12-31",
         "end_time": "11:59",
         "end_period": "am",
-        "image_1": "shopify://shop_images/2160x514_PhoneConsultation_Banner_OneSleep_RO.png",
         "link": "tel:0040316300529",
         "width": "wrapper",
         "height": "image-height",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 50,
-        "mobile_image": "shopify://shop_images/540x239_Phone-Consultation_Banner_MobileOneSleep_RO.png",
         "mobile_height": "image-height--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "",
@@ -870,7 +856,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 50,
-            "image": "shopify://shop_images/bulgaria.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
@@ -895,7 +880,6 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 50,
-            "image": "shopify://shop_images/italy.jpg",
             "image_width": 100,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
@@ -981,7 +965,6 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/cf866e0de43fd3015fb5b01eadf21ca47287cc87.webp",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
