@@ -49,7 +49,6 @@
         "image_9JYqBC": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Bubble.svg",
             "image_width": 20
           }
         },
@@ -385,30 +384,6 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "section_blog_U86qXe": {
-      "type": "section-blog",
-      "name": "Blog posts",
-      "settings": {
-        "blog_name": "totul-despre-somn",
-        "aspect_ratio": 0.8,
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "title_font_size": "heading-small",
-        "show_tags": false,
-        "show_author": false,
-        "show_date": false,
-        "show_button": true,
-        "show_comments": false,
-        "width": "wrapper",
-        "grid": 4,
-        "rows": 1,
-        "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "heading_tag": "automatic",
-        "title_tag": "automatic"
-      }
     }
   },
   "order": [
@@ -420,7 +395,6 @@
     "main",
     "section_reviews_9g8JcG",
     "section_rich_text_CLbdKV",
-    "section_rich_text_CpWnk8",
-    "section_blog_U86qXe"
+    "section_rich_text_CpWnk8"
   ]
 }
