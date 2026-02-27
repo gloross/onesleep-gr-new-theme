@@ -850,18 +850,19 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 50,
+            "image": "shopify://shop_images/bulgaria.webp",
             "image_width": 100,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
-            "title": "Saltele bulgărești",
+            "title": "Βουλγαρικά στρώματα",
             "heading_font_size": "heading-small",
             "text": "",
             "text_font_size": "body-medium",
             "alignment": "align--bottom-left-desktop",
             "show_text_background": true,
             "button_text": "",
-            "button_url": "shopify://collections/saltele-bulgarești",
+            "button_url": "shopify://collections/βουλγαρικά-στρώματα",
             "button_type": "btn--primary",
             "button_style": "btn--solid",
             "show_arrow": false,
@@ -874,18 +875,19 @@
           "type": "image-overlay",
           "settings": {
             "column_width": 50,
+            "image": "shopify://shop_images/italy.webp",
             "image_width": 100,
             "image_aspect_ratio": 1,
             "mobile_image_aspect_ratio": 1,
             "image_shape": "normal",
-            "title": "Saltele italiene",
+            "title": "Ιταλικά στρώματα",
             "heading_font_size": "heading-small",
             "text": "",
             "text_font_size": "body-medium",
             "alignment": "align--bottom-left-desktop",
             "show_text_background": true,
             "button_text": "",
-            "button_url": "shopify://collections/saltele-italiene",
+            "button_url": "shopify://collections/ιταλικά-στρώματα",
             "button_type": "btn--primary",
             "button_style": "btn--solid",
             "show_arrow": false,
@@ -938,7 +940,7 @@
         "heading_q97wNW": {
           "type": "heading",
           "settings": {
-            "title": "De ce să alegi onesleep.com",
+            "title": "Γιατί να επιλέξετε το onesleep.gr",
             "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -947,7 +949,7 @@
         "text_nrDtpk": {
           "type": "text",
           "settings": {
-            "text": "<p>Chiar și cele mai bune lucruri din viață pot deveni și mai bune, iar asta nu înseamnă întotdeauna un preț ridicat. Misiunea onesleep este să facem somnul de excepție accesibil tuturor. Investim mult timp în cercetarea fiecărui produs pe care îl oferim, astfel încât să respecte standardele noastre înalte de calitate, confort și accesibilitate. Pentru că adevărata măiestrie nu înseamnă doar perfecționism, ci dorința de a asigura un somn mai bun pentru fiecare buget.</p>",
+            "text": "<p>Ακόμα και τα καλύτερα πράγματα στη ζωή μπορούν να γίνουν ακόμα καλύτερα – και αυτό δεν σημαίνει πάντα ότι έχουν υψηλή τιμή. Στο <a href=\"http://onesleep.gr/\" target=\"_blank\"><span style=\"text-decoration:underline\">onesleep.gr</span></a> η αποστολή μας είναι να κάνουμε τον εξαιρετικό ύπνο προσιτό σε όλους. Επενδύουμε πολύ χρόνο στην έρευνα κάθε προϊόντος που προσφέρουμε για να διασφαλίσουμε ότι πληροί τα υψηλά μας πρότυπα για ποιότητα, άνεση και προσιτή τιμή. Επειδή η πραγματική δεξιοτεχνία δεν αφορά μόνο την τελειότητα – αφορά την προσπάθεια να παρέχουμε καλύτερο ύπνο για κάθε προϋπολογισμό.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -959,6 +961,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/cf866e0de43fd3015fb5b01eadf21ca47287cc87_1.webp",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -978,7 +981,7 @@
         "heading_a7zbHw": {
           "type": "heading",
           "settings": {
-            "title": "Locul tău pentru somn",
+            "title": "Το δικό μέρος σου για ύπνο",
             "heading_font_size": "heading-medium",
             "padding_bottom": 10,
             "heading_tag": "automatic"
@@ -987,7 +990,7 @@
         "text_Q4xpdi": {
           "type": "text",
           "settings": {
-            "text": "<p>Ghid complet pentru alegerea saltelei și a produselor pentru somn, informații utile despre cum să dormi mai bine și alte subiecte importante:</p>",
+            "text": "<p>Ένας πλήρης οδηγός για την επιλογή στρώματος και προϊόντα ύπνου, χρήσιμες πληροφορίες για το πώς να κοιμάστε καλύτερα και άλλα σημαντικά θέματα:</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -1011,7 +1014,7 @@
       "type": "section-blog",
       "name": "Blog posts",
       "settings": {
-        "blog_name": "totul-despre-somn",
+        "blog_name": "oλα-για-τον-ύπνο",
         "aspect_ratio": 0.8,
         "title": "",
         "heading_font_size": "heading-medium",
