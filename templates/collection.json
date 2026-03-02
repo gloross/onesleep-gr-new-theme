@@ -9,109 +9,6 @@
  */
 {
   "sections": {
-    "section_announcement_A9aqHT": {
-      "type": "section-announcement",
-      "blocks": {
-        "image_mCmkLT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HandShake.svg",
-            "image_width": 30
-          }
-        },
-        "text_gdNxqf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_iGnE3m": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Star.svg",
-            "image_width": 20
-          }
-        },
-        "text_mFd9nV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>+1 000 000 clienți mulțumiți</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_9JYqBC": {
-          "type": "image",
-          "settings": {
-            "image_width": 20
-          }
-        },
-        "image_cPW38j": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Truck.svg",
-            "image_width": 20
-          }
-        },
-        "text_hr8ehp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_TcYnLw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sheild.svg",
-            "image_width": 20
-          }
-        },
-        "text_HyMPbM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Garanție extinsă gratuită</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "image_mCmkLT",
-        "text_gdNxqf",
-        "image_iGnE3m",
-        "text_mFd9nV",
-        "image_9JYqBC",
-        "image_cPW38j",
-        "text_hr8ehp",
-        "image_TcYnLw",
-        "text_HyMPbM"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "scheme-5",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
     "highlights": {
       "type": "section-highlights",
       "blocks": {
@@ -349,52 +246,15 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "section_rich_text_CpWnk8": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_qjWijJ": {
-          "type": "heading",
-          "settings": {
-            "title": "Refugiul tău pentru somn",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 10,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_9YLWhJ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ghid complet pentru alegerea saltelei și a produselor pentru somn, informații utile despre cum să dormi mai bine și alte subiecte importante:</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_qjWijJ",
-        "text_9YLWhJ"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
-        "color_scheme": "scheme-1",
-        "overlay_type": "disabled",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
-    "section_announcement_A9aqHT",
     "highlights",
     "subcollections",
     "section_hero_UXPhET",
     "hero",
     "main",
     "section_reviews_9g8JcG",
-    "section_rich_text_CLbdKV",
-    "section_rich_text_CpWnk8"
+    "section_rich_text_CLbdKV"
   ]
 }

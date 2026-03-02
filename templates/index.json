@@ -148,6 +148,7 @@
         "image_V9FKYT",
         "text_FcQtqD"
       ],
+      "disabled": true,
       "name": "Scrolling text",
       "settings": {
         "slider_speed": 7,

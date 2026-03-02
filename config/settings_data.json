@@ -71,8 +71,9 @@
     "badge_new_date_limit": 20,
     "product_svg_badge": "",
     "favicon": "shopify://shop_images/faviconnn.png",
-    "free_shipping_limit": "500",
+    "free_shipping_limit": "",
     "show_lock_icon": true,
+    "empty_cart_menu": "main-navigation",
     "show_recently_viewed_products": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
@@ -97,11 +98,6 @@
         "settings": {
           "enabled_on_page": "all"
         }
-      },
-      "17676059084223943535": {
-        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
-        "disabled": false,
-        "settings": {}
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",

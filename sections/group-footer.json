@@ -19,7 +19,7 @@
           "settings": {
             "title": "",
             "heading_font_size": "heading-x-small",
-            "text": "<p>Onesleep.com este un magazin online de produse pentru somn - saltele, perne, protecții pentru saltea, somiere, accesorii și paturi. Aici găsiți totul despre somn - cele mai populare mărci de pe piață, sfaturi de specialitate, oferte atractive și avantaje la cumpărături.<br/>Bine ați venit!<br/><br/><strong>Program de lucru cu clienții:<br/>Luni - Vineri -</strong>09:00 - 18:00<br/><strong>Sâmbătă și Duminică</strong>- Liber</p>",
+            "text": "<p>Το Onesleep.com είναι ένα ηλεκτρονικό κατάστημα για προϊόντα ύπνου - στρώματα, μαξιλάρια, προστατευτικά, βάσεις στρωμάτων, αξεσουάρ και κρεβάτια. Εδώ μπορείτε να βρείτε τα πάντα για τον ύπνο - τις πιο δημοφιλείς μάρκες στην αγορά, συμβουλές ειδικών, ελκυστικές προσφορές και πλεονεκτήματα αγορών. Καλός ήρθατε!</p>",
             "column_width": 25,
             "enable_follow_on_shop": false,
             "enable_accordion": false
@@ -29,7 +29,7 @@
           "type": "linklist",
           "settings": {
             "linklist": "link-list",
-            "title": "Detalii",
+            "title": "Πληροφορίες",
             "heading_font_size": "heading-x-small",
             "column_width": 20,
             "enable_accordion": true
@@ -39,7 +39,7 @@
           "type": "linklist",
           "settings": {
             "linklist": "link-list-1",
-            "title": "Comenzi și livrări",
+            "title": "Παραγγελιές και παράδοση",
             "heading_font_size": "heading-x-small",
             "column_width": 20,
             "enable_accordion": true

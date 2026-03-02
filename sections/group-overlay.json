@@ -17,12 +17,13 @@
         "title": {
           "type": "title",
           "settings": {
-            "title": "Coșul tău",
+            "title": "Το καλάθι σας",
             "text_font_size": "body-medium"
           }
         },
         "free-shipping": {
           "type": "free-shipping",
+          "disabled": true,
           "settings": {
             "message": "Mai ai ||amount|| lei până primești LIVRARE GRATUITĂ!",
             "text_font_size": "body-x-small",
