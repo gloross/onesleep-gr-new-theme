@@ -173,7 +173,7 @@
             "hide_on_complete": true,
             "digits_font_size": "heading-large",
             "text_font_size": "body-small",
-            "text": "<p>OFERTA LIMITATA</p>",
+            "text": "<p>ΠΕΡΙΟΡΙΣΜΕΝΗ ΠΡΟΣΦΟΡΑ</p>",
             "heading_font_size": "heading-x-small",
             "bg_color": "#ffc31a",
             "color": "#221c42",
@@ -196,6 +196,7 @@
         },
         "trust_badge_icYwqH": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-fast-shipment",
             "icon_left_size": 30,
@@ -207,7 +208,9 @@
             "padding_bottom": 16,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["in-stock"],
+            "condition_collections": [
+              "in-stock"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -218,6 +221,7 @@
         },
         "trust_badge_CbrWxg": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-fast-shipment",
             "icon_left_size": 30,
@@ -229,7 +233,9 @@
             "padding_bottom": 16,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["20-days-delivery"],
+            "condition_collections": [
+              "20-days-delivery"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -240,6 +246,7 @@
         },
         "trust_badge_djRwF3": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-fast-shipment",
             "icon_left_size": 30,
@@ -251,7 +258,9 @@
             "padding_bottom": 16,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["3-weeks-delivery"],
+            "condition_collections": [
+              "3-weeks-delivery"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -262,6 +271,7 @@
         },
         "trust_badge_KmY86j": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-fast-shipment",
             "icon_left_size": 30,
@@ -273,7 +283,9 @@
             "padding_bottom": 16,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["5-days-delivery"],
+            "condition_collections": [
+              "5-days-delivery"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -284,6 +296,7 @@
         },
         "trust_badge_7EtfjU": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-info-empty",
             "icon_left_size": 25,
@@ -295,7 +308,9 @@
             "padding_bottom": 10,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["100-дни-гаранция"],
+            "condition_collections": [
+              "100-дни-гаранция"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -306,6 +321,7 @@
         },
         "trust_badge_VbVyir": {
           "type": "trust-badge",
+          "disabled": true,
           "settings": {
             "icon_left": "icon-info-empty",
             "icon_left_size": 25,
@@ -317,7 +333,9 @@
             "padding_bottom": 10,
             "single_condition": true,
             "condition_product_list": [],
-            "condition_collections": ["30-дни-гаранция"],
+            "condition_collections": [
+              "30-дни-гаранция"
+            ],
             "condition_vendors": "",
             "condition_tags": "",
             "combined_conditions": false,
@@ -354,8 +372,8 @@
         "complementary_products_W8bBAt"
       ],
       "settings": {
-        "custom_award_image": "shopify://shop_images/certified_icon_2x_807016c3-c487-42c3-b631-44b2b96025b7.webp",
-        "custom_award_text": "<p><strong>+1 000 000 de clienți mulțumiți</strong></p>",
+        "custom_award_image": "shopify://shop_images/certified_icon_2x_807016c3-c487-42c3-b631-44b2b96025b7_1.webp",
+        "custom_award_text": "<p><strong>+1.000.000 ικανοποιημένοι πελάτες</strong></p>",
         "product_sticky_enable": true,
         "variant_image_scroll": true,
         "show_cart_bar": true,
@@ -382,7 +400,9 @@
           }
         }
       },
-      "block_order": ["judge_me_reviews_review_widget_NmPHk7"],
+      "block_order": [
+        "judge_me_reviews_review_widget_NmPHk7"
+      ],
       "settings": {
         "include_margins": false
       }
@@ -401,16 +421,19 @@
         "text_DEHjLG": {
           "type": "text",
           "settings": {
-            "text": "<p>Contactați consultantul nostru la numărul <a href=\"tel:0040316300529\" title=\"tel:0040316300529\">0040316300529</a> și vă vom ajuta să alegeți și să comandați cel mai potrivit produs pentru dumneavoastră.</p>",
+            "text": "<p>Επικοινωνήστε με τον σύμβουλό μας στο <a href=\"tel:+302311768593\" title=\"tel:+302311768593\">+302311768593</a> και θα σας βοηθήσουμε να επιλέξετε και να παραγγείλετε το πιο κατάλληλο προϊόν για εσάς.</p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
         }
       },
-      "block_order": ["image_gaadCy", "text_DEHjLG"],
+      "block_order": [
+        "image_gaadCy",
+        "text_DEHjLG"
+      ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/0933c41fc6f803cb4c870c5f5fb076b1ae6a27d8.webp",
+        "image_1": "shopify://shop_images/0933c41fc6f803cb4c870c5f5fb076b1ae6a27d8_1.webp",
         "image_width": "one-quarter",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -430,17 +453,20 @@
         "related": {
           "type": "related",
           "settings": {
-            "product_recommendations_heading": "S-ar putea să-ți placă și"
+            "product_recommendations_heading": "Μπορεί επίσης να σας αρέσει"
           }
         },
         "recent_zHJtj4": {
           "type": "recent",
           "settings": {
-            "product_recently_heading": "Ultima vizualizare"
+            "product_recently_heading": "Τελευταία προβολή"
           }
         }
       },
-      "block_order": ["related", "recent_zHJtj4"],
+      "block_order": [
+        "related",
+        "recent_zHJtj4"
+      ],
       "settings": {
         "enable_tabs": true,
         "heading_alignment": "text-center",
@@ -456,5 +482,11 @@
       }
     }
   },
-  "order": ["section_announcement_XPBTai", "main", "1759747786db434d90", "section_double_6g6Lcz", "related"]
+  "order": [
+    "section_announcement_XPBTai",
+    "main",
+    "1759747786db434d90",
+    "section_double_6g6Lcz",
+    "related"
+  ]
 }

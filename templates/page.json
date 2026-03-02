@@ -9,110 +9,6 @@
  */
 {
   "sections": {
-    "section_announcement_eA8J77": {
-      "type": "section-announcement",
-      "blocks": {
-        "image_dzqxMB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HandShake.svg",
-            "image_width": 30
-          }
-        },
-        "text_Yb3ctK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Cele mai populare mărci într-un singur loc</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_zF99Ex": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Star.svg",
-            "image_width": 20
-          }
-        },
-        "text_dk8fH6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>+1 000 000 clienți mulțumiți</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_egwe6z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Bubble.svg",
-            "image_width": 20
-          }
-        },
-        "image_7pkYNr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Truck.svg",
-            "image_width": 20
-          }
-        },
-        "text_ye8Dfp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Livrare gratuită pentru comenzi de peste 500 lei</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "image_GhfWgg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sheild.svg",
-            "image_width": 20
-          }
-        },
-        "text_Kznwbm": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Garanție extinsă gratuită</p>",
-            "text_font_size": "body-small",
-            "color": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "image_dzqxMB",
-        "text_Yb3ctK",
-        "image_zF99Ex",
-        "text_dk8fH6",
-        "image_egwe6z",
-        "image_7pkYNr",
-        "text_ye8Dfp",
-        "image_GhfWgg",
-        "text_Kznwbm"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 10,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "scheme-5",
-        "padding_top": 10,
-        "padding_bottom": 10
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -171,7 +67,6 @@
     }
   },
   "order": [
-    "section_announcement_eA8J77",
     "main",
     "section_newsletter_7xELgM"
   ]

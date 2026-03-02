@@ -48,10 +48,10 @@
         "footer-0": {
           "type": "newsletter",
           "settings": {
-            "title": "Nu doar povești de adormit",
+            "title": "Όχι μόνο παραμύθια για καληνύχτα",
             "heading_font_size": "heading-small",
-            "text": "<p>Abonează-te pentru a primi sfaturi, noutăți și oferte promoționale.</p>",
-            "button_text": "Trimite",
+            "text": "<p>Εγγραφείτε για να λαμβάνετε συμβουλές, νέα και προωθητικές προσφορές.</p>",
+            "button_text": "Στέλνω",
             "show_arrow": false,
             "terms": false,
             "show_name": false,
