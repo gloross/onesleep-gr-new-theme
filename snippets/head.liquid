@@ -13,34 +13,27 @@
 <!-- ======================= Broadcast Theme V7.1.1 ========================= -->
 
 <!-- Biano Pixel Code -->
-<script>
+  <script>
   // describe configuration options
   const bianoPixelConfig = {
-    consent: true, // required boolean
-    debug: false, // optional boolean - default false
+  consent: true, // required boolean
+  debug: false, // optional boolean - default false
   };
-  !(function (b, i, a, n, o, p, x, s) {
-    if (b.bianoTrack) return;
-    o = b.bianoTrack = function () {
-      o.callMethod ? o.callMethod.apply(o, arguments) : o.queue.push(arguments);
-    };
-    o.push = o;
-    o.queue = [];
-    a = a || {};
-    n = a.consent === void 0 ? !0 : !!a.consent;
-    o.push('consent', n);
-    s = 'script';
-    p = i.createElement(s);
-    p.async = !0;
-    p.src = 'https://' + (n ? 'pixel.biano.ro' : 'bianopixel.com') + '/' + (a.debug ? 'debug' : 'min') + '/pixel.js';
-    x = i.getElementsByTagName(s)[0];
-    x.parentNode.insertBefore(p, x);
-  })(window, document, bianoPixelConfig);
+  !function(b,i,a,n,o,p,x,s){
+  if(b.bianoTrack)return;o=b.bianoTrack=function(){o.callMethod?
+  o.callMethod.apply(o,arguments):o.queue.push(arguments)};o.push=o;o.queue=[];
+  a=a||{};n=a.consent===void(0)?!0:!!a.consent;o.push('consent',n);
+  s='script';p=i.createElement(s);p.async=!0;
+  p.src='https://'+(n?'pixel.biano.ro':'bianopixel.com')+
+  '/'+(a.debug?'debug':'min')+'/pixel.js';
+  x=i.getElementsByTagName(s)[0];x.parentNode.insertBefore(p,x);
+  }(window,document,bianoPixelConfig);
   // initialize Biano Pixel with your Merchant ID
-  bianoTrack('init', 'roec0d98d4559a9b9234e5d27384b610ad4fad0dce');
+  bianoTrack('init', 'grf414bfddc5a60aaef059558fc2457d6fccafd59a');
   // optionally enable Biano Button
   // bianoTrack('init-button');
-</script>
+  </script>
+<!-- End Biano Pixel Code -->
 
 <script async src="https://attr-2p.com/50fc60d16/clc/1.js"></script>
 
