@@ -904,9 +904,9 @@
       ],
       "name": "Multi column",
       "settings": {
-        "title": "Cumpără după țara de origine",
+        "title": "Αγόρασε ανάλογα με τη χώρα προέλευση",
         "heading_font_size": "heading-medium",
-        "description": "<p>Maiestrie din Bulgaria sau Italia </p>",
+        "description": "<p>Τέχνη από τη Βουλγαρία ή την Ιταλία</p>",
         "align_heading": "text-left",
         "align_text": "text-left",
         "width": "wrapper",
